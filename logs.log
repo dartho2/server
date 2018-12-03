@@ -1,0 +1,1271 @@
+[2018-12-03T19:34:55.107] [INFO] default - D:\xampp\htdocs\server\yoga-server-master (1)\yoga-server\certs\cert.key or D:\xampp\htdocs\server\yoga-server-master (1)\yoga-server\certs\cert.crt does not exists.
+[2018-12-03T19:34:55.112] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2018-12-03T19:34:55.113] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb://user3:user3user3@ds253959.mlab.com:53959/karma_test",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2018-12-03T19:47:30.387] [INFO] default - Handling GET /api
+[2018-12-03T19:47:30.559] [INFO] default - Handling GET /favicon.ico
+[2018-12-03T19:47:38.990] [INFO] default - Handling GET /api/portals
+[2018-12-03T19:47:39.734] [INFO] default - Responding with HTTP 200
+[2018-12-03T19:47:39.754] [INFO] default - Responding with HTTP 200
+[2018-12-03T22:17:32.263] [INFO] default - D:\xampp\htdocs\server\yoga-server-master (1)\yoga-server\certs\cert.key or D:\xampp\htdocs\server\yoga-server-master (1)\yoga-server\certs\cert.crt does not exists.
+[2018-12-03T22:17:32.268] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2018-12-03T22:17:32.269] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb://user3:user3user3@ds253959.mlab.com:53959/karma_test",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2018-12-03T22:17:38.227] [INFO] default - Handling GET /api/portals
+[2018-12-03T22:17:38.884] [INFO] default - Responding with HTTP 200
+[2018-12-03T22:17:38.912] [INFO] default - Responding with HTTP 200
+[2018-12-03T22:17:45.883] [INFO] default - Handling GET /api/carnets
+[2018-12-03T22:17:56.534] [INFO] default - Handling GET /api/carnetss
+[2018-12-03T22:18:04.431] [INFO] default - Handling GET /api/login
+[2018-12-03T22:18:09.488] [INFO] default - Handling GET /api/images
+[2018-12-03T22:18:09.491] [INFO] default - Responding with HTTP 401
+[2018-12-03T22:18:09.492] [INFO] default - Responding with HTTP 401
+[2018-12-03T22:18:33.400] [INFO] default - D:\xampp\htdocs\server\yoga-server-master (1)\yoga-server\certs\cert.key or D:\xampp\htdocs\server\yoga-server-master (1)\yoga-server\certs\cert.crt does not exists.
+[2018-12-03T22:18:33.419] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2018-12-03T22:18:33.420] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb://user3:user3user3@ds253959.mlab.com:53959/karma_test",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2018-12-03T22:20:54.418] [INFO] default - D:\xampp\htdocs\server\yoga-server-master (1)\yoga-server\certs\cert.key or D:\xampp\htdocs\server\yoga-server-master (1)\yoga-server\certs\cert.crt does not exists.
+[2018-12-03T22:20:54.423] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2018-12-03T22:20:54.424] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb://user3:user3user3@ds253959.mlab.com:53959/karma_test",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2018-12-03T22:21:07.431] [INFO] default - Handling GET /api/carnets
+[2018-12-03T22:21:07.434] [INFO] default - Responding with HTTP 401
+[2018-12-03T22:21:07.436] [INFO] default - Responding with HTTP 401
+[2018-12-03T22:21:21.140] [INFO] default - Handling GET /api/carnets
+[2018-12-03T22:21:21.144] [INFO] default - Responding with HTTP 401
+[2018-12-03T22:21:21.145] [INFO] default - Responding with HTTP 401
+[2018-12-03T22:21:43.190] [INFO] default - Handling GET /api/carnets
+[2018-12-03T22:21:43.191] [INFO] default - Responding with HTTP 401
+[2018-12-03T22:21:43.192] [INFO] default - Responding with HTTP 401
+[2018-12-03T22:21:50.443] [INFO] default - Handling GET /api/carnets
+[2018-12-03T22:21:50.453] [INFO] default - Responding with HTTP 401
+[2018-12-03T22:21:50.453] [INFO] default - Responding with HTTP 401
+[2018-12-03T22:22:05.100] [INFO] default - Handling GET /api/images
+[2018-12-03T22:22:05.101] [INFO] default - Responding with HTTP 401
+[2018-12-03T22:22:05.101] [INFO] default - Responding with HTTP 401
+[2018-12-03T22:23:19.409] [INFO] default - Handling GET /api/auth/login
+[2018-12-03T22:23:23.652] [INFO] default - Handling POST /api/auth/login
+[2018-12-03T22:23:23.653] [INFO] default - Responding with HTTP 401
+[2018-12-03T22:23:23.654] [INFO] default - Responding with HTTP 401
+[2018-12-03T22:23:43.385] [INFO] default - Handling POST /api/auth/login
+[2018-12-03T22:23:43.386] [INFO] default - Responding with HTTP 401
+[2018-12-03T22:23:43.386] [INFO] default - Responding with HTTP 401
+[2018-12-03T22:23:58.893] [INFO] default - Handling POST /api/auth/login
+[2018-12-03T22:23:58.895] [INFO] default - Responding with HTTP 401
+[2018-12-03T22:23:58.896] [INFO] default - Responding with HTTP 401
+[2018-12-03T22:24:05.396] [INFO] default - Handling POST /api/auth/login
+[2018-12-03T22:24:05.396] [INFO] default - Responding with HTTP 401
+[2018-12-03T22:24:05.397] [INFO] default - Responding with HTTP 401
+[2018-12-03T22:24:10.749] [INFO] default - Handling POST /api/auth/login
+[2018-12-03T22:24:10.750] [INFO] default - Responding with HTTP 401
+[2018-12-03T22:24:10.750] [INFO] default - Responding with HTTP 401
+[2018-12-03T22:24:15.622] [INFO] default - Handling GET /api/auth/login
+[2018-12-03T22:24:19.185] [INFO] default - Handling GET /api/auth/login
+[2018-12-03T22:24:25.652] [INFO] default - Handling GET /api/auth/login
+[2018-12-03T22:24:42.467] [INFO] default - Handling POST /api/auth/login
+[2018-12-03T22:24:42.469] [INFO] default - Responding with HTTP 401
+[2018-12-03T22:24:42.469] [INFO] default - Responding with HTTP 401
+[2018-12-03T22:24:54.754] [INFO] default - Handling POST /api/auth/login
+[2018-12-03T22:24:54.760] [INFO] default - Responding with HTTP 401
+[2018-12-03T22:24:54.764] [INFO] default - Responding with HTTP 401
+[2018-12-03T22:25:43.072] [INFO] default - Handling POST /api/auth/login
+[2018-12-03T22:25:43.075] [INFO] default - Responding with HTTP 200
+[2018-12-03T22:25:43.075] [INFO] default - Responding with HTTP 200
+[2018-12-03T22:25:56.516] [INFO] default - Handling GET /api/carnets
+[2018-12-03T22:27:06.736] [INFO] default - Handling GET /api/carnets
+[2018-12-03T22:27:25.479] [INFO] default - D:\xampp\htdocs\server\yoga-server-master (1)\yoga-server\certs\cert.key or D:\xampp\htdocs\server\yoga-server-master (1)\yoga-server\certs\cert.crt does not exists.
+[2018-12-03T22:27:25.484] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2018-12-03T22:27:25.485] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb://user3:user3user3@ds253959.mlab.com:53959/karma_test",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2018-12-03T22:27:28.683] [INFO] default - Handling GET /api/carnets
+[2018-12-03T22:27:28.766] [INFO] default - Responding with HTTP 200
+[2018-12-03T22:27:28.767] [INFO] default - Responding with HTTP 200
+[2018-12-03T22:39:20.401] [INFO] default - D:\xampp\htdocs\server\yoga-server-master (1)\yoga-server\certs\cert.key or D:\xampp\htdocs\server\yoga-server-master (1)\yoga-server\certs\cert.crt does not exists.
+[2018-12-03T22:39:20.406] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2018-12-03T22:39:20.406] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb://user3:user3user3@ds253959.mlab.com:53959/karma_test",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2018-12-03T22:44:59.377] [INFO] default - Handling POST /api/carnets
+[2018-12-03T22:44:59.513] [INFO] default - Responding with HTTP 201
+[2018-12-03T22:44:59.514] [INFO] default - Responding with HTTP 201
+[2018-12-03T22:48:02.431] [INFO] default - D:\xampp\htdocs\server\yoga-server-master (1)\yoga-server\certs\cert.key or D:\xampp\htdocs\server\yoga-server-master (1)\yoga-server\certs\cert.crt does not exists.
+[2018-12-03T22:48:02.437] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2018-12-03T22:48:02.437] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb://user3:user3user3@ds253959.mlab.com:53959/karma_test",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2018-12-03T22:48:07.187] [INFO] default - Handling POST /api/carnets
+[2018-12-03T22:48:07.466] [INFO] default - Responding with HTTP 201
+[2018-12-03T22:48:07.469] [INFO] default - Responding with HTTP 201
+[2018-12-03T22:56:29.309] [INFO] default - D:\xampp\htdocs\server\yoga-server-master (1)\yoga-server\certs\cert.key or D:\xampp\htdocs\server\yoga-server-master (1)\yoga-server\certs\cert.crt does not exists.
+[2018-12-03T22:56:29.314] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2018-12-03T22:56:29.315] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb://user3:user3user3@ds253959.mlab.com:53959/karma_test",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2018-12-03T22:56:33.510] [INFO] default - Handling POST /api/carnets
+[2018-12-03T22:56:33.515] [DEBUG] default - Adding carnet item:  { name: 'Pawel',
+  type: [ { name: 'pdtr', options: 'pakiet', package: [Object] } ],
+  data: '03-12-2018',
+  edata: '03-12-2018' }
+[2018-12-03T22:56:33.618] [INFO] default - Responding with HTTP 201
+[2018-12-03T22:56:33.619] [INFO] default - Responding with HTTP 201
+[2018-12-03T23:06:29.461] [INFO] default - D:\xampp\htdocs\server\yoga-server-master (1)\yoga-server\certs\cert.key or D:\xampp\htdocs\server\yoga-server-master (1)\yoga-server\certs\cert.crt does not exists.
+[2018-12-03T23:06:29.467] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2018-12-03T23:06:29.467] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb://user3:user3user3@ds253959.mlab.com:53959/karma_test",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2018-12-03T23:06:33.205] [INFO] default - Handling POST /api/carnets
+[2018-12-03T23:06:33.220] [DEBUG] default - Adding carnet item:  { name: 'Pawel',
+  type: [ { name: 'pdtr', options: 'pakiet', package: [Object] } ],
+  data: '03-12-2018',
+  edata: '03-12-2018' }
+[2018-12-03T23:06:56.361] [INFO] default - D:\xampp\htdocs\server\yoga-server-master (1)\yoga-server\certs\cert.key or D:\xampp\htdocs\server\yoga-server-master (1)\yoga-server\certs\cert.crt does not exists.
+[2018-12-03T23:06:56.367] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2018-12-03T23:06:56.367] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb://user3:user3user3@ds253959.mlab.com:53959/karma_test",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2018-12-03T23:06:56.600] [INFO] default - Handling POST /api/carnets
+[2018-12-03T23:06:56.603] [DEBUG] default - Adding carnet item:  { name: 'Pawel',
+  type: [ { name: 'pdtr', options: 'pakiet', package: [Object] } ],
+  data: '03-12-2018',
+  edata: '03-12-2018' }
+[2018-12-03T23:06:59.809] [INFO] default - Handling POST /api/carnets
+[2018-12-03T23:06:59.810] [DEBUG] default - Adding carnet item:  { name: 'Pawel',
+  type: [ { name: 'pdtr', options: 'pakiet', package: [Object] } ],
+  data: '03-12-2018',
+  edata: '03-12-2018' }
+[2018-12-03T23:07:03.120] [INFO] default - Handling POST /api/carnets
+[2018-12-03T23:07:03.121] [DEBUG] default - Adding carnet item:  { name: 'Pawel',
+  type: [ { name: 'pdtr', options: 'pakiet', package: [Object] } ],
+  data: '03-12-2018',
+  edata: '03-12-2018' }
+[2018-12-03T23:08:38.545] [INFO] default - D:\xampp\htdocs\server\yoga-server-master (1)\yoga-server\certs\cert.key or D:\xampp\htdocs\server\yoga-server-master (1)\yoga-server\certs\cert.crt does not exists.
+[2018-12-03T23:08:38.551] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2018-12-03T23:08:38.552] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb://user3:user3user3@ds253959.mlab.com:53959/karma_test",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2018-12-03T23:08:41.195] [INFO] default - Handling POST /api/carnets
+[2018-12-03T23:08:41.199] [DEBUG] default - Adding carnet item:  { name: 'Pawel',
+  type: [ { name: 'pdtr', options: 'pakiet', package: [Object] } ],
+  data: '03-12-2018',
+  edata: '03-12-2018' }
+[2018-12-03T23:09:25.241] [INFO] default - D:\xampp\htdocs\server\yoga-server-master (1)\yoga-server\certs\cert.key or D:\xampp\htdocs\server\yoga-server-master (1)\yoga-server\certs\cert.crt does not exists.
+[2018-12-03T23:09:25.247] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2018-12-03T23:09:25.247] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb://user3:user3user3@ds253959.mlab.com:53959/karma_test",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2018-12-03T23:09:26.192] [INFO] default - Handling POST /api/carnets
+[2018-12-03T23:09:26.202] [DEBUG] default - Adding carnet item:  { name: 'Pawel',
+  type: [ { name: 'pdtr', options: 'pakiet', package: [Object] } ],
+  data: '03-12-2018',
+  edata: '03-12-2018' }
+[2018-12-03T23:12:37.685] [INFO] default - D:\xampp\htdocs\server\yoga-server-master (1)\yoga-server\certs\cert.key or D:\xampp\htdocs\server\yoga-server-master (1)\yoga-server\certs\cert.crt does not exists.
+[2018-12-03T23:12:37.691] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2018-12-03T23:12:37.692] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb://user3:user3user3@ds253959.mlab.com:53959/karma_test",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2018-12-03T23:12:40.419] [INFO] default - Handling POST /api/carnets
+[2018-12-03T23:12:40.427] [DEBUG] default - Adding carnet item:  { name: 'Pawel',
+  type: [ { name: 'pdtr', options: 'pakiet', package: [Object] } ],
+  data: '03-12-2018',
+  edata: '03-12-2018' }
+[2018-12-03T23:13:59.436] [INFO] default - D:\xampp\htdocs\server\yoga-server-master (1)\yoga-server\certs\cert.key or D:\xampp\htdocs\server\yoga-server-master (1)\yoga-server\certs\cert.crt does not exists.
+[2018-12-03T23:13:59.441] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2018-12-03T23:13:59.442] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb://user3:user3user3@ds253959.mlab.com:53959/karma_test",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2018-12-03T23:14:00.754] [INFO] default - Handling POST /api/carnets
+[2018-12-03T23:14:00.761] [DEBUG] default - Adding carnet item:  { name: 'Pawel',
+  type: [ { name: 'pdtr', options: 'pakiet', package: [Object] } ],
+  data: '03-12-2018',
+  edata: '03-12-2018' }
+[2018-12-03T23:15:14.683] [INFO] default - D:\xampp\htdocs\server\yoga-server-master (1)\yoga-server\certs\cert.key or D:\xampp\htdocs\server\yoga-server-master (1)\yoga-server\certs\cert.crt does not exists.
+[2018-12-03T23:15:14.688] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2018-12-03T23:15:14.689] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb://user3:user3user3@ds253959.mlab.com:53959/karma_test",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2018-12-03T23:15:15.821] [INFO] default - Handling POST /api/carnets
+[2018-12-03T23:15:15.825] [DEBUG] default - Adding carnet item:  { name: 'Pawel',
+  type: [ { name: 'pdtr', options: 'pakiet', package: [Object] } ],
+  data: '03-12-2018',
+  edata: '03-12-2018' }
+[2018-12-03T23:16:31.689] [INFO] default - D:\xampp\htdocs\server\yoga-server-master (1)\yoga-server\certs\cert.key or D:\xampp\htdocs\server\yoga-server-master (1)\yoga-server\certs\cert.crt does not exists.
+[2018-12-03T23:16:31.695] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2018-12-03T23:16:31.696] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb://user3:user3user3@ds253959.mlab.com:53959/karma_test",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2018-12-03T23:16:33.249] [INFO] default - Handling POST /api/carnets
+[2018-12-03T23:16:33.253] [DEBUG] default - Adding carnet item:  { name: 'Pawel',
+  type: [ { name: 'pdtr', options: 'pakiet', package: [Object] } ],
+  data: '03-12-2018',
+  edata: '03-12-2018' }
+[2018-12-03T23:17:25.220] [INFO] default - D:\xampp\htdocs\server\yoga-server-master (1)\yoga-server\certs\cert.key or D:\xampp\htdocs\server\yoga-server-master (1)\yoga-server\certs\cert.crt does not exists.
+[2018-12-03T23:17:25.227] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2018-12-03T23:17:25.228] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb://user3:user3user3@ds253959.mlab.com:53959/karma_test",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2018-12-03T23:17:25.440] [INFO] default - Handling POST /api/carnets
+[2018-12-03T23:17:25.445] [DEBUG] default - Adding carnet item:  { name: 'Pawel',
+  type: [ { name: 'pdtr', options: 'pakiet', package: [Object] } ],
+  data: '03-12-2018',
+  edata: '03-12-2018' }
+[2018-12-03T23:17:32.960] [INFO] default - Handling POST /api/carnets
+[2018-12-03T23:17:32.961] [DEBUG] default - Adding carnet item:  { name: 'Pawel',
+  type: [ { name: 'pdtr', options: 'pakiet', package: [Object] } ],
+  data: '03-12-2018',
+  edata: '03-12-2018' }
+[2018-12-03T23:18:52.276] [INFO] default - D:\xampp\htdocs\server\yoga-server-master (1)\yoga-server\certs\cert.key or D:\xampp\htdocs\server\yoga-server-master (1)\yoga-server\certs\cert.crt does not exists.
+[2018-12-03T23:18:52.276] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2018-12-03T23:18:52.276] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb://user3:user3user3@ds253959.mlab.com:53959/karma_test",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2018-12-03T23:19:00.126] [INFO] default - Handling POST /api/carnets
+[2018-12-03T23:19:00.131] [DEBUG] default - Adding carnet item:  { name: 'Pawel',
+  type: [ { name: 'pdtr', options: 'pakiet', package: [Object] } ],
+  data: '03-12-2018',
+  edata: '03-12-2018' }
+[2018-12-03T23:20:36.640] [INFO] default - D:\xampp\htdocs\server\yoga-server-master (1)\yoga-server\certs\cert.key or D:\xampp\htdocs\server\yoga-server-master (1)\yoga-server\certs\cert.crt does not exists.
+[2018-12-03T23:20:36.648] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2018-12-03T23:20:36.649] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb://user3:user3user3@ds253959.mlab.com:53959/karma_test",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2018-12-03T23:20:39.858] [INFO] default - Handling POST /api/carnets
+[2018-12-03T23:20:39.861] [DEBUG] default - Adding carnet item:  { name: 'Pawel',
+  type: [ { name: 'pdtr', options: 'pakiet', package: [Object] } ],
+  data: '03-12-2018',
+  edata: '03-12-2018' }
+[2018-12-03T23:21:36.545] [INFO] default - D:\xampp\htdocs\server\yoga-server-master (1)\yoga-server\certs\cert.key or D:\xampp\htdocs\server\yoga-server-master (1)\yoga-server\certs\cert.crt does not exists.
+[2018-12-03T23:21:36.550] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2018-12-03T23:21:36.551] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb://user3:user3user3@ds253959.mlab.com:53959/karma_test",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2018-12-03T23:21:40.101] [INFO] default - Handling POST /api/carnets
+[2018-12-03T23:21:40.106] [DEBUG] default - Adding carnet item:  { name: 'Pawel',
+  type: [ { name: 'pdtr', options: 'pakiet', package: [Object] } ],
+  data: '03-12-2018',
+  edata: '03-12-2018' }
+[2018-12-03T23:22:13.784] [INFO] default - Handling POST /api/carnets
+[2018-12-03T23:22:13.785] [DEBUG] default - Adding carnet item:  { name: 'Pawel',
+  type: [ { name: 'pdtr', options: 'pakiet', package: [Object] } ],
+  data: '03-12-2018',
+  edata: '03-12-2018' }
+[2018-12-03T23:22:23.507] [INFO] default - D:\xampp\htdocs\server\yoga-server-master (1)\yoga-server\certs\cert.key or D:\xampp\htdocs\server\yoga-server-master (1)\yoga-server\certs\cert.crt does not exists.
+[2018-12-03T23:22:23.512] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2018-12-03T23:22:23.513] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb://user3:user3user3@ds253959.mlab.com:53959/karma_test",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2018-12-03T23:22:24.250] [INFO] default - Handling POST /api/carnets
+[2018-12-03T23:22:24.255] [DEBUG] default - Adding carnet item:  { name: 'Pawel',
+  type: [ { name: 'pdtr', options: 'pakiet', package: [Object] } ],
+  data: '03-12-2018',
+  edata: '03-12-2018' }
+[2018-12-03T23:22:43.673] [INFO] default - Handling POST /api/carnets
+[2018-12-03T23:22:43.675] [DEBUG] default - Adding carnet item:  { name: 'Pawel',
+  type: [ { name: 'pdtr', options: 'pakiet', package: [Array] } ],
+  data: '03-12-2018',
+  edata: '03-12-2018' }
+[2018-12-03T23:22:58.382] [INFO] default - Handling POST /api/carnets
+[2018-12-03T23:22:58.383] [DEBUG] default - Adding carnet item:  { name: 'Pawel',
+  type: [ { name: 'pdtr', options: 'pakiet', package: [Array] } ],
+  data: '03-12-2018',
+  edata: '03-12-2018' }
+[2018-12-03T23:23:06.378] [INFO] default - D:\xampp\htdocs\server\yoga-server-master (1)\yoga-server\certs\cert.key or D:\xampp\htdocs\server\yoga-server-master (1)\yoga-server\certs\cert.crt does not exists.
+[2018-12-03T23:23:06.378] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2018-12-03T23:23:06.378] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb://user3:user3user3@ds253959.mlab.com:53959/karma_test",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2018-12-03T23:23:08.527] [INFO] default - Handling POST /api/carnets
+[2018-12-03T23:23:08.534] [DEBUG] default - Adding carnet item:  { name: 'Pawel',
+  type: [ { name: 'pdtr', options: 'pakiet', package: [Array] } ],
+  data: '03-12-2018',
+  edata: '03-12-2018' }
+[2018-12-03T23:23:30.613] [INFO] default - Handling POST /api/carnets
+[2018-12-03T23:23:30.614] [DEBUG] default - Adding carnet item:  { name: 'Pawel',
+  type: [ { name: 'pdtr', options: 'pakiet', package: [Object] } ],
+  data: '03-12-2018',
+  edata: '03-12-2018' }
+[2018-12-03T23:24:03.452] [INFO] default - D:\xampp\htdocs\server\yoga-server-master (1)\yoga-server\certs\cert.key or D:\xampp\htdocs\server\yoga-server-master (1)\yoga-server\certs\cert.crt does not exists.
+[2018-12-03T23:24:03.452] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2018-12-03T23:24:03.452] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb://user3:user3user3@ds253959.mlab.com:53959/karma_test",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2018-12-03T23:24:10.092] [INFO] default - Handling POST /api/carnets
+[2018-12-03T23:24:10.097] [DEBUG] default - Adding carnet item:  { name: 'Pawel',
+  type: [ { name: 'pdtr', options: 'pakiet', package: [Object] } ],
+  data: '03-12-2018',
+  edata: '03-12-2018' }
+[2018-12-03T23:24:43.901] [INFO] default - D:\xampp\htdocs\server\yoga-server-master (1)\yoga-server\certs\cert.key or D:\xampp\htdocs\server\yoga-server-master (1)\yoga-server\certs\cert.crt does not exists.
+[2018-12-03T23:24:43.910] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2018-12-03T23:24:43.911] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb://user3:user3user3@ds253959.mlab.com:53959/karma_test",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2018-12-03T23:24:44.350] [INFO] default - Handling POST /api/carnets
+[2018-12-03T23:24:44.353] [DEBUG] default - Adding carnet item:  { name: 'Pawel',
+  type: [ { name: 'pdtr', options: 'pakiet', package: [Object] } ],
+  data: '03-12-2018',
+  edata: '03-12-2018' }
+[2018-12-03T23:25:14.967] [INFO] default - Handling POST /api/carnets
+[2018-12-03T23:25:14.968] [DEBUG] default - Adding carnet item:  { name: 'Pawel',
+  type: [ { name: 'pdtr', options: 'pakiet', package: [Array] } ],
+  data: '03-12-2018',
+  edata: '03-12-2018' }
+[2018-12-03T23:25:25.276] [INFO] default - Handling POST /api/carnets
+[2018-12-03T23:25:25.277] [DEBUG] default - Adding carnet item:  { name: 'Pawel',
+  type: [ { name: 'pdtr', options: 'pakiet', package: [Object] } ],
+  data: '03-12-2018',
+  edata: '03-12-2018' }
+[2018-12-03T23:26:18.175] [INFO] default - D:\xampp\htdocs\server\yoga-server-master (1)\yoga-server\certs\cert.key or D:\xampp\htdocs\server\yoga-server-master (1)\yoga-server\certs\cert.crt does not exists.
+[2018-12-03T23:26:18.180] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2018-12-03T23:26:18.180] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb://user3:user3user3@ds253959.mlab.com:53959/karma_test",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2018-12-03T23:26:18.384] [INFO] default - Handling POST /api/carnets
+[2018-12-03T23:26:18.384] [DEBUG] default - Adding carnet item:  { name: 'Pawel',
+  type: [ { name: 'pdtr', options: 'pakiet', package: [Object] } ],
+  data: '03-12-2018',
+  edata: '03-12-2018' }
+[2018-12-03T23:26:40.703] [INFO] default - D:\xampp\htdocs\server\yoga-server-master (1)\yoga-server\certs\cert.key or D:\xampp\htdocs\server\yoga-server-master (1)\yoga-server\certs\cert.crt does not exists.
+[2018-12-03T23:26:40.703] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2018-12-03T23:26:40.703] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb://user3:user3user3@ds253959.mlab.com:53959/karma_test",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2018-12-03T23:26:41.437] [INFO] default - Handling POST /api/carnets
+[2018-12-03T23:26:41.440] [DEBUG] default - Adding carnet item:  { name: 'Pawel',
+  type: [ { name: 'pdtr', options: 'pakiet', package: [Object] } ],
+  data: '03-12-2018',
+  edata: '03-12-2018' }
+[2018-12-03T23:27:37.740] [INFO] default - D:\xampp\htdocs\server\yoga-server-master (1)\yoga-server\certs\cert.key or D:\xampp\htdocs\server\yoga-server-master (1)\yoga-server\certs\cert.crt does not exists.
+[2018-12-03T23:27:37.746] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2018-12-03T23:27:37.746] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb://user3:user3user3@ds253959.mlab.com:53959/karma_test",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2018-12-03T23:27:38.080] [INFO] default - Handling POST /api/carnets
+[2018-12-03T23:27:38.083] [DEBUG] default - Adding carnet item:  { name: 'Pawel',
+  type: [ { name: 'pdtr', options: 'pakiet', package: [Object] } ],
+  data: '03-12-2018',
+  edata: '03-12-2018' }
+[2018-12-03T23:29:17.553] [INFO] default - Handling GET /api/carnets
+[2018-12-03T23:29:17.555] [INFO] default - Responding with HTTP 401
+[2018-12-03T23:29:17.557] [INFO] default - Responding with HTTP 401
+[2018-12-03T23:29:35.689] [INFO] default - Handling POST /api/carnets
+[2018-12-03T23:29:35.691] [DEBUG] default - Adding carnet item:  { name: 'Pawel',
+  type: [ { name: 'pdtr', options: 'pakiet' } ],
+  data: '03-12-2018',
+  edata: '03-12-2018' }
+[2018-12-03T23:30:43.812] [INFO] default - D:\xampp\htdocs\server\yoga-server-master (1)\yoga-server\certs\cert.key or D:\xampp\htdocs\server\yoga-server-master (1)\yoga-server\certs\cert.crt does not exists.
+[2018-12-03T23:30:43.817] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2018-12-03T23:30:43.817] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb://user3:user3user3@ds253959.mlab.com:53959/karma_test",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2018-12-03T23:30:47.335] [INFO] default - Handling POST /api/carnets
+[2018-12-03T23:30:47.339] [DEBUG] default - Adding carnet item:  { name: 'Pawel',
+  type: [ { name: 'pdtr', options: 'pakiet', package: [Object] } ],
+  data: '03-12-2018',
+  edata: '03-12-2018' }
+[2018-12-03T23:31:15.292] [INFO] default - D:\xampp\htdocs\server\yoga-server-master (1)\yoga-server\certs\cert.key or D:\xampp\htdocs\server\yoga-server-master (1)\yoga-server\certs\cert.crt does not exists.
+[2018-12-03T23:31:15.297] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2018-12-03T23:31:15.297] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb://user3:user3user3@ds253959.mlab.com:53959/karma_test",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2018-12-03T23:31:20.967] [INFO] default - Handling POST /api/carnets
+[2018-12-03T23:31:20.974] [DEBUG] default - Adding carnet item:  { name: 'Pawel',
+  type: [ { name: 'pdtr', options: 'pakiet', package: [Object] } ],
+  data: '03-12-2018',
+  edata: '03-12-2018' }
+[2018-12-03T23:32:06.999] [INFO] default - D:\xampp\htdocs\server\yoga-server-master (1)\yoga-server\certs\cert.key or D:\xampp\htdocs\server\yoga-server-master (1)\yoga-server\certs\cert.crt does not exists.
+[2018-12-03T23:32:07.004] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2018-12-03T23:32:07.005] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb://user3:user3user3@ds253959.mlab.com:53959/karma_test",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2018-12-03T23:32:08.188] [INFO] default - Handling POST /api/carnets
+[2018-12-03T23:32:08.197] [DEBUG] default - Adding carnet item:  { name: 'Pawel',
+  type: [ { name: 'pdtr', options: 'pakiet', package: [Object] } ],
+  data: '03-12-2018',
+  edata: '03-12-2018' }
+[2018-12-03T23:33:27.288] [INFO] default - D:\xampp\htdocs\server\yoga-server-master (1)\yoga-server\certs\cert.key or D:\xampp\htdocs\server\yoga-server-master (1)\yoga-server\certs\cert.crt does not exists.
+[2018-12-03T23:33:27.294] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2018-12-03T23:33:27.295] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb://user3:user3user3@ds253959.mlab.com:53959/karma_test",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2018-12-03T23:33:30.310] [INFO] default - Handling POST /api/carnets
+[2018-12-03T23:33:30.314] [DEBUG] default - Adding carnet item:  { name: 'Pawel',
+  type: [ { name: 'pdtr', options: 'pakiet', package: [Object] } ],
+  data: '03-12-2018',
+  edata: '03-12-2018' }
+[2018-12-03T23:33:51.016] [INFO] default - D:\xampp\htdocs\server\yoga-server-master (1)\yoga-server\certs\cert.key or D:\xampp\htdocs\server\yoga-server-master (1)\yoga-server\certs\cert.crt does not exists.
+[2018-12-03T23:33:51.030] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2018-12-03T23:33:51.031] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb://user3:user3user3@ds253959.mlab.com:53959/karma_test",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2018-12-03T23:33:54.472] [INFO] default - Handling POST /api/carnets
+[2018-12-03T23:33:54.475] [DEBUG] default - Adding carnet item:  { name: 'Pawel',
+  type: [ { name: 'pdtr', options: 'pakiet', package: [Object] } ],
+  data: '03-12-2018',
+  edata: '03-12-2018' }
+[2018-12-03T23:34:30.778] [INFO] default - D:\xampp\htdocs\server\yoga-server-master (1)\yoga-server\certs\cert.key or D:\xampp\htdocs\server\yoga-server-master (1)\yoga-server\certs\cert.crt does not exists.
+[2018-12-03T23:34:30.778] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2018-12-03T23:34:30.794] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb://user3:user3user3@ds253959.mlab.com:53959/karma_test",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2018-12-03T23:34:37.946] [INFO] default - Handling POST /api/carnets
+[2018-12-03T23:34:37.954] [DEBUG] default - Adding carnet item:  { name: 'Pawel',
+  type: [ { name: 'pdtr', options: 'pakiet', package: [Object] } ],
+  data: '03-12-2018',
+  edata: '03-12-2018' }
+[2018-12-03T23:37:39.428] [INFO] default - D:\xampp\htdocs\server\yoga-server-master (1)\yoga-server\certs\cert.key or D:\xampp\htdocs\server\yoga-server-master (1)\yoga-server\certs\cert.crt does not exists.
+[2018-12-03T23:37:39.433] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2018-12-03T23:37:39.434] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb://user3:user3user3@ds253959.mlab.com:53959/karma_test",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2018-12-03T23:37:43.605] [INFO] default - Handling POST /api/carnets
+[2018-12-03T23:37:43.610] [DEBUG] default - Adding carnet item:  { name: 'Pawel',
+  type: [ { name: 'pdtr', options: 'pakiet', package: [Object] } ],
+  data: '03-12-2018',
+  edata: '03-12-2018' }
+[2018-12-03T23:37:44.158] [INFO] default - Responding with HTTP 201
+[2018-12-03T23:37:44.159] [INFO] default - Responding with HTTP 201
+[2018-12-03T23:45:01.705] [INFO] default - D:\xampp\htdocs\server\yoga-server-master (1)\yoga-server\certs\cert.key or D:\xampp\htdocs\server\yoga-server-master (1)\yoga-server\certs\cert.crt does not exists.
+[2018-12-03T23:45:01.713] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2018-12-03T23:45:01.714] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb://user3:user3user3@ds253959.mlab.com:53959/karma_test",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2018-12-03T23:45:01.915] [INFO] default - Handling GET /api/carnets
+[2018-12-03T23:45:01.917] [INFO] default - Responding with HTTP 401
+[2018-12-03T23:45:01.918] [INFO] default - Responding with HTTP 401
+[2018-12-03T23:45:45.671] [INFO] default - Handling POST /api/carnets
+[2018-12-03T23:45:45.674] [DEBUG] default - Adding carnet item:  { name: 'Pawel',
+  type: [ { name: 'pdtr', options: 'pakiet', package: [Object] } ],
+  data: '03-12-2018',
+  edata: '03-12-2018' }
+[2018-12-03T23:46:07.240] [INFO] default - Handling POST /api/carnets
+[2018-12-03T23:46:07.241] [DEBUG] default - Adding carnet item:  { name: 'Pawel',
+  surname: 'W',
+  type: [ { name: 'pdtr', options: 'pakiet', package: [Object] } ],
+  data: '03-12-2018',
+  edata: '03-12-2018' }
+[2018-12-03T23:46:07.320] [INFO] default - Responding with HTTP 201
+[2018-12-03T23:46:07.321] [INFO] default - Responding with HTTP 201
+[2018-12-03T23:49:13.168] [INFO] default - D:\xampp\htdocs\server\yoga-server-master (1)\yoga-server\certs\cert.key or D:\xampp\htdocs\server\yoga-server-master (1)\yoga-server\certs\cert.crt does not exists.
+[2018-12-03T23:49:13.178] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2018-12-03T23:49:13.180] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb://user3:user3user3@ds253959.mlab.com:53959/karma_test",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2018-12-03T23:49:15.195] [INFO] default - Handling POST /api/carnets
+[2018-12-03T23:49:15.199] [DEBUG] default - Adding carnet item:  { name: 'Pawel',
+  surname: 'W',
+  type: [ { name: 'pdtr', options: 'pakiet', package: [Object] } ],
+  data: '03-12-2018',
+  edata: '03-12-2018' }
+[2018-12-03T23:49:15.287] [INFO] default - Responding with HTTP 201
+[2018-12-03T23:49:15.289] [INFO] default - Responding with HTTP 201
+[2018-12-03T23:49:51.425] [INFO] default - Handling GET /api/carnets
+[2018-12-03T23:50:29.138] [INFO] default - Handling GET /api/carnets
+[2018-12-03T23:50:40.858] [INFO] default - Handling GET /api/carnets
+[2018-12-03T23:50:50.350] [INFO] default - Handling GET /api/carnets
+[2018-12-03T23:50:50.432] [INFO] default - Responding with HTTP 200
+[2018-12-03T23:50:50.433] [INFO] default - Responding with HTTP 200
+[2018-12-03T23:51:01.853] [INFO] default - Handling POST /api/carnets
+[2018-12-03T23:51:01.854] [DEBUG] default - Adding carnet item:  { name: 'Pawel',
+  surname: 'W',
+  type: [ { name: 'pdtr', options: 'pakiet', package: [Object] } ],
+  data: '03-12-2018',
+  edata: '03-12-2018' }
+[2018-12-03T23:51:01.926] [INFO] default - Responding with HTTP 201
+[2018-12-03T23:51:01.927] [INFO] default - Responding with HTTP 201
+[2018-12-03T23:51:06.295] [INFO] default - Handling GET /api/carnets
+[2018-12-03T23:53:37.930] [INFO] default - D:\xampp\htdocs\server\yoga-server-master (1)\yoga-server\certs\cert.key or D:\xampp\htdocs\server\yoga-server-master (1)\yoga-server\certs\cert.crt does not exists.
+[2018-12-03T23:53:37.950] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2018-12-03T23:53:37.950] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb://user3:user3user3@ds253959.mlab.com:53959/karma_test",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2018-12-03T23:53:45.101] [INFO] default - Handling GET /api/carnets
+[2018-12-03T23:56:50.438] [INFO] default - Handling POST /api/carnets
+[2018-12-03T23:56:50.448] [DEBUG] default - Adding carnet item:  { name: 'Pawel',
+  surname: 'W',
+  type: [ { name: 'pdtr', options: 'pakiet', package: [Object] } ],
+  data: 'sd',
+  edata: 'sd' }
+[2018-12-03T23:56:50.532] [INFO] default - Responding with HTTP 201
+[2018-12-03T23:56:50.534] [INFO] default - Responding with HTTP 201
+[2018-12-03T23:56:53.835] [INFO] default - Handling GET /api/carnets
+[2018-12-03T23:57:26.195] [INFO] default - Handling POST /api/carnets
+[2018-12-03T23:57:26.200] [DEBUG] default - Adding carnet item:  { name: 'Pawel',
+  surname: 'W',
+  type: [ { name: 'pdtr', options: 'pakiet', package: [Object] } ],
+  data: '03-12-2018',
+  edata: '03-12-2018' }
+[2018-12-03T23:57:26.278] [INFO] default - Responding with HTTP 201
+[2018-12-03T23:57:26.279] [INFO] default - Responding with HTTP 201
+[2018-12-03T23:57:41.623] [INFO] default - Handling GET /api/carnets
+[2018-12-03T23:57:41.625] [INFO] default - Responding with HTTP 401
+[2018-12-03T23:57:41.626] [INFO] default - Responding with HTTP 401
+[2018-12-03T23:57:46.082] [INFO] default - Handling GET /api/carnets
+[2018-12-03T23:57:46.085] [INFO] default - Responding with HTTP 401
+[2018-12-03T23:57:46.097] [INFO] default - Responding with HTTP 401
+[2018-12-03T23:58:07.812] [INFO] default - Handling GET /api/carnets
+[2018-12-03T23:58:22.627] [INFO] default - D:\xampp\htdocs\server\yoga-server-master (1)\yoga-server\certs\cert.key or D:\xampp\htdocs\server\yoga-server-master (1)\yoga-server\certs\cert.crt does not exists.
+[2018-12-03T23:58:22.636] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2018-12-03T23:58:22.636] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb://user3:user3user3@ds253959.mlab.com:53959/karma_test",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2018-12-03T23:58:24.645] [INFO] default - Handling GET /api/carnets
+[2018-12-04T00:00:17.357] [INFO] default - Handling GET /api/carnets
+[2018-12-04T00:00:17.439] [INFO] default - Responding with HTTP 200
+[2018-12-04T00:00:17.440] [INFO] default - Responding with HTTP 200
+[2018-12-04T00:00:31.872] [INFO] default - D:\xampp\htdocs\server\yoga-server-master (1)\yoga-server\certs\cert.key or D:\xampp\htdocs\server\yoga-server-master (1)\yoga-server\certs\cert.crt does not exists.
+[2018-12-04T00:00:31.872] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2018-12-04T00:00:31.872] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb://user3:user3user3@ds253959.mlab.com:53959/karma_test",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2018-12-04T00:00:46.439] [INFO] default - Handling POST /api/carnets
+[2018-12-04T00:00:46.449] [DEBUG] default - Adding carnet item:  { name: 'Pawel',
+  surname: 'W',
+  type: [ { name: 'pdtr', options: 'pakiet', package: [Object] } ],
+  data: '03-12-2018',
+  edata: '03-12-2018' }
+[2018-12-04T00:00:46.684] [INFO] default - Responding with HTTP 201
+[2018-12-04T00:00:46.689] [INFO] default - Responding with HTTP 201
+[2018-12-04T00:01:08.221] [INFO] default - Handling GET /api/carnets
+[2018-12-04T00:03:16.441] [INFO] default - D:\xampp\htdocs\server\yoga-server-master (1)\yoga-server\certs\cert.key or D:\xampp\htdocs\server\yoga-server-master (1)\yoga-server\certs\cert.crt does not exists.
+[2018-12-04T00:03:16.446] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2018-12-04T00:03:16.447] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb://user3:user3user3@ds253959.mlab.com:53959/karma_test",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2018-12-04T00:03:19.358] [INFO] default - Handling POST /api/carnets
+[2018-12-04T00:03:19.364] [DEBUG] default - Adding carnet item:  { name: 'Pawel',
+  surname: 'W',
+  type: 
+   [ { name: 'pdtr',
+       options: 'pakiet',
+       package: [Object],
+       sdata: '03-12-2018',
+       edata: '03-12-2018' } ] }
+[2018-12-04T00:03:19.452] [INFO] default - Responding with HTTP 201
+[2018-12-04T00:03:19.471] [INFO] default - Responding with HTTP 201
+[2018-12-04T00:03:26.682] [INFO] default - Handling GET /api/carnets
+[2018-12-04T00:03:26.762] [INFO] default - Responding with HTTP 200
+[2018-12-04T00:03:26.763] [INFO] default - Responding with HTTP 200
