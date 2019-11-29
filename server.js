@@ -51,7 +51,7 @@ app.use('/api/auth', require('./routes/authentication'));
 app.use('/api/service', require('./routes/service'));
 app.use('/api', require('./routes/health'));
 app.use('/api/carnets', require('./routes/carnets'));
-
+app.use('/api/products', require('./routes/products'));
 // ERROR HANDLER //////////////////////////////////////////
 
 router.use((err, req, res, next) => {
