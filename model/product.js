@@ -10,7 +10,7 @@ const productSchema = new Schema({
         image: {type: Array, default: {}},
         style: {type: Object, default: {}},
         active: {type: Boolean, default: true},
-        price: {type: Number,  required: true },
+        price: {type: String,  required: true },
         unit: {type: String, required: true}
    
 });

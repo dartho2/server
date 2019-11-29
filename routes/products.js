@@ -12,6 +12,7 @@ router.post('/', authMid, (req, res, next) => {
         .catch(err => next(err));
 });
 
+
 // list
 router.get('/', authMid, (req, res, next) => {
     productService.getAll()
