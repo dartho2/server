@@ -22,4 +22,4 @@ const productService = {
     },
 };
 
-module.exports = carnetService;
+module.exports = productService;
