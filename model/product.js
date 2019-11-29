@@ -13,14 +13,17 @@ const productSchema = new Schema({
         price: {type: Number,  
           get: function(value){
           return (num / 100).toFixed(2);
-        }, required: true },
+        }, 
+        set: function(value){
+          return num * 100;
+        },required: true },
         unit: {type: String, required: true}
    
 });
 // Getter
-productSchema.path('price').get(function(num) {
-    return (num / 100).toFixed(2);
-  });
+// productSchema.path('price').get(function(num) {
+//     return (num / 100).toFixed(2);
+//   });
   
   // Setter
   productSchema.path('price').set(function(num) {
