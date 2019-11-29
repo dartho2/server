@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const authMid = require('../middleware/authorization');
-const productService = require("../service/productService");
+const productService = require("../service/productService.js");
 
 // add
 router.post('/', authMid, (req, res, next) => {
