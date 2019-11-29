@@ -21,10 +21,10 @@ app.use(cors());
 app.use(compression());
 app.use(loggingMid);
 
-
+ 
 mongoose.connect(conf.database_uri, {useNewUrlParser: true});
 
-// ROUTES
+// ROUTESs
 
 const request = require('request');
 const username = '915629246747733';
