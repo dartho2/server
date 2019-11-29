@@ -1,0 +1,22 @@
+environment: dev
+
+default:
+    env: dev
+    port: 8080
+    jwt_secret: sldgkhoiu58340th0089y
+    database_uri: mongodb://user1:mlabkarma321@ds133533.mlab.com:33533/karma
+    logging_level: debug
+    authentication_timeout: 36000
+    portal_cache_timeout: 60
+    email:
+      title: Test mail from yoga
+      to: ssjkamil@gmail.com
+    email_server:
+      username: example@gmail.com
+      password: password
+    credentials:
+      username: admin
+      password: admin
+
+
+

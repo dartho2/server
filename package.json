@@ -1,0 +1,42 @@
+{
+  "name": "yoga-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xkamil/yoga-server.git"
+  },
+  "keywords": [
+    "yoga",
+    "server",
+    "api"
+  ],
+  "author": "Kamil Wrobel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xkamil/yoga-server/issues"
+  },
+  "homepage": "https://github.com/xkamil/yoga-server#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "compression": "^1.7.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "express-basic-auth": "^1.1.6",
+    "https": "^1.0.0",
+    "jsonwebtoken": "^8.3.0",
+    "log4js": "^3.0.5",
+    "mongoose": "^5.3.0",
+    "nodemailer": "^4.6.8",
+    "request": "^2.88.0",
+    "yamljs": "^0.3.0"
+  }
+}
