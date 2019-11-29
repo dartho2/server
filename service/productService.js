@@ -12,7 +12,6 @@ const productService = {
     },
     add: (productItemData) => {
         return new Promise((resolve, reject) => {
-            logger.debug(`Adding content item: `, productItemData);
             new Product(productItemData).save()
                 .then(resolve)
                 .catch(err => reject(resolveErrorType(err)))

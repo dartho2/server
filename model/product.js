@@ -10,18 +10,16 @@ const productSchema = new Schema({
         image: {type: Array, default: {}},
         style: {type: Object, default: {}},
         active: {type: Boolean, default: true},
-        price: {type: Number, required: true },
+        price: {type: Number, get: getPrice, set: setPrice, required: true },
         unit: {type: String, required: true}
    
 });
-// Getter
-productSchema.path('price').get(function(num) {
-    return (num / 100).toFixed(2);
-  });
-  
-  // Setter
-  productSchema.path('price').set(function(num) {
-    return num * 100;
-  });
+function getPrice(num){
+  return (num/100).toFixed(2);
+}
+
+function setPrice(num){
+  return num*100;
+}
 
 module.exports = mongoose.model('Products', productSchema);
