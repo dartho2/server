@@ -37,11 +37,13 @@ router.get("/images", authMid, (req, res, next) => {
         if (err) {
             next(err);
         } else if (response.statusCode === 200) {
-            res.status(200).json(JSON.parse(body))
-        }
+            res.status(200).json(JSON.parse(body)['resources'])
+       }
     })
 });
-
+router.get('/validate_token', authMid, function (req, res) {
+	    res.send('');
+});
 app.use('/api/portals', require('./routes/portal'));
 app.use('/api/sections', require('./routes/section'));
 app.use('/api/content_items', require('./routes/contentItem'));
@@ -63,6 +65,7 @@ router.use((err, req, res, next) => {
 app.use('/api', router);
 
 const httpsCredentials = getHttpsCredentials();
+console.log(httpsCredentials);
 const server = httpsCredentials ? https.createServer(credentials, app) : app;
 server.listen(conf.port, () => {
     logger.info(`HTTP${httpsCredentials ? 'S' : ''} server started on port: ${conf.port} with env: ${conf.env}`);
