@@ -6,7 +6,7 @@ const CERT_PATH = path.join(__dirname, '/certs/cert.crt');
 
 function getHttpsCredentials() {
     if (fs.existsSync(KEY_PATH) && fs.existsSync(CERT_PATH)) {
-        return {
+        return credentials = {
             key: fs.readFileSync(KEY_PATH),
             cert: fs.readFileSync(CERT_PATH)
         }
