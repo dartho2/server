@@ -11,10 +11,10 @@ const productSchema = new Schema({
         style: {type: Object, default: {}},
         active: {type: Boolean, default: true},
         price: {type: Number,  
-          get: function(value){
+          get: function(num){
           return (num / 100).toFixed(2);
         }, 
-        set: function(value){
+        set: function(num){
           return num * 100;
         },required: true },
         unit: {type: String, required: true}
