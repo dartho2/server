@@ -11,7 +11,14 @@ router.post('/', authMid, (req, res, next) => {
         .then(product => res.status(201).json(product))
         .catch(err => next(err));
 });
+router.post('/:id', authMid, (req, res, next) => {
+    const id = req.params.id;
+    const productItemData = req.body;
 
+    productService.update(id, productItemData)
+        .then(product => res.json('Content item updated'))
+        .catch(err => next(err));
+});
 
 // list
 router.get('/', authMid, (req, res, next) => {
