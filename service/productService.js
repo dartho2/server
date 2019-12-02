@@ -17,6 +17,13 @@ const productService = {
                 .catch(err => reject(resolveErrorType(err)))
         });
     },
+    get: (id) => {
+        return new Promise((resolve, reject) => {
+            Product.findById(id)
+                .then(resolve)
+                .catch(err => reject(err))
+        });
+    },
         
         remove: (productItemId) => {
             return new Promise((resolve, reject) => {
