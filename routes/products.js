@@ -19,6 +19,12 @@ router.get('/', authMid, (req, res, next) => {
         .then(product => res.json(product))
         .catch(err => next(err));
 });
+router.get('/:id', (req, res, next) => {
+    const id = req.params.id;
+    productService.get(id)
+        .then(contentProduct => res.json(contentProduct))
+        .catch(err => next(err));
+});
 
 
 module.exports = router;
