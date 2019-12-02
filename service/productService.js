@@ -40,7 +40,7 @@ const productService = {
         },
     
         update: (id, productItemData) => {
-            const {type, styles, content, tags} = productItemData;
+            const {name,description, image, label, logo, price, unit, active, style} = productItemData;
             console.log(productItemData);
     
             return new Promise((resolve, reject) => {
