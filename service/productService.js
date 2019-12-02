@@ -40,13 +40,13 @@ const productService = {
         },
     
         update: (id, productItemData) => {
-            const {name,description, image, label, logo, price, unit, active, style} = productItemData;
+            const {name,description, image, label, logo, price, unit, active, style,weight} = productItemData;
             console.log(productItemData);
     
             return new Promise((resolve, reject) => {
                 logger.debug(`Updating content item ${id} with:\n ${JSON.stringify(productItemData, null, 2)} `);
     
-                Product.findByIdAndUpdate(id, {name,description, image, label, logo, price, unit, active, style}, {runValidators: true})
+                Product.findByIdAndUpdate(id, {name,description, image, label, logo, price, unit, active, style,weight}, {runValidators: true})
                     .then(resolve)
                     .catch(err => reject(resolveErrorType(err)))
             });
