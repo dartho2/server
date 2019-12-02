@@ -46,7 +46,7 @@ const productService = {
             return new Promise((resolve, reject) => {
                 logger.debug(`Updating content item ${id} with:\n ${JSON.stringify(productItemData, null, 2)} `);
     
-                ProductItem.findByIdAndUpdate(id, {type, styles, content, tags}, {runValidators: true})
+                Product.findByIdAndUpdate(id, {name,description, image, label, logo, price, unit, active, style}, {runValidators: true})
                     .then(resolve)
                     .catch(err => reject(resolveErrorType(err)))
             });
