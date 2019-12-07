@@ -5,15 +5,15 @@ const dishSchema = new Schema({
     
         name: {type: String, required: true, unique: true},
         price: {type: String,  required: true },
-        products: [{
-            type: Object,  
-            name: {type: String, required: true},
-            unit: {type: String, required: true},
-            price: {type: String, required: true},
-            productweight: {type: String, required: true},
-            valueproduct: {type: String, required: true},
-            weight: {type: String, required: true} 
-        }],
+        products: {
+            type: Object,  required: false 
+            // name: {type: String, required: true},
+            // unit: {type: String, required: true},
+            // price: {type: String, required: true},
+            // productweight: {type: String, required: true},
+            // valueproduct: {type: String, required: true},
+            // weight: {type: String, required: true} 
+        },
         
         
         
