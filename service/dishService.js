@@ -1,4 +1,4 @@
-const Dish = require("../model/product");
+const Dish = require("../model/dish");
 const resolveErrorType = require('../error').resolveErrorType;
 const logger = require('../libs/logger');
 
