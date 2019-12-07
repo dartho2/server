@@ -53,4 +53,4 @@ const dishService = {
         },
     };
 
-module.exports = productService;
+module.exports = dishService;
