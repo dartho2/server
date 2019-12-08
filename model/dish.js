@@ -5,6 +5,7 @@ const dishSchema = new Schema({
     
         name: {type: String, required: true, unique: true},
         price: {type: String,  required: true },
+        price_p: {type: String,  required: true },
         products: {
             type: Object,  required: false 
             // name: {type: String, required: true},
