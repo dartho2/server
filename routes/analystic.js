@@ -5,6 +5,7 @@ const analysticService = require("../service/analysticService");
 const logger = require('../libs/logger');
 const {getTime} = require('../utils');
 const conf = require('../configuration/configuration');
+const request = require('request');
 
 const cache = {
     cached_at: 0,
@@ -20,7 +21,6 @@ router.get('/reset_cache', authMid, (req, res) => {
 
 router.get('/:id', (req, res, next) => {
     const id = req.params.id;
-    console.log(id)
     request.get("https://www.sofascore.com/football//"+id+"/json?",   
     (err, response, body) => {
         if (err) {
