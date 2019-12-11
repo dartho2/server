@@ -20,8 +20,9 @@ router.get('/reset_cache', authMid, (req, res) => {
 
 router.get('/:id', (req, res, next) => {
     const id = req.params.id;
-    request.get('https://www.sofascore.com/football//'+id+'/json?', {
-    },   (err, response, body) => {
+    console.log(id)
+    request.get("https://www.sofascore.com/football//"+id+"/json?",   
+    (err, response, body) => {
         if (err) {
             next(err);
         } else if (response.statusCode === 200) {
