@@ -7,17 +7,6 @@ const {getTime} = require('../utils');
 const conf = require('../configuration/configuration');
 const request = require('request');
 
-const cache = {
-    cached_at: 0,
-    data: null
-};
-
-// reset cache
-router.get('/reset_cache', authMid, (req, res) => {
-    cache.cached_at = 0;
-    cache.data = null;
-    res.send('');
-});
 
 router.get('/:id', (req, res, next) => {
     const id = req.params.id;
@@ -26,7 +15,7 @@ router.get('/:id', (req, res, next) => {
         if (err) {
             next(err);
         } else if (response.statusCode === 200) {
-            res.status(200).json(JSON.parse(body)['sportItem'].tournament)
+            res.status(200).json(JSON.parse(body)['sportItem'].tournaments)
        }})
 });
 
