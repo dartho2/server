@@ -45,6 +45,7 @@ router.get("/images", authMid, (req, res, next) => {
 router.get('/validate_token', authMid, function (req, res) {
 	    res.send('');
 });
+app.use('/api/events', require('./routes/events'));
 app.use('/api/analystic', require('./routes/analystic'));
 app.use('/api/portals', require('./routes/portal'));
 app.use('/api/sections', require('./routes/section'));
