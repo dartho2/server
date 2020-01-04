@@ -12,7 +12,8 @@ const productSchema = new Schema({
         active: {type: Boolean, default: true},
         price: {type: String,  required: true },
         unit: {type: String, required: true},
-        weight: {type: String, required: true}
+        weight: {type: String, required: true},
+        vat: {type: Number, required: true}
    
 });
 // // Getter
