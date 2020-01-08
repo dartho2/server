@@ -17,6 +17,7 @@ const productSchema = new Schema({
         totalPrice: {type: String, required: true},
         product_data: {type: String,required: true},
         vat: {type: Number,required: true},
+        supplier: {type: String,required: true},
         history: {type: Object,
                 required: true},
    
