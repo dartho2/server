@@ -14,7 +14,7 @@ router.post('/', authMid, (req, res, next) => {
 router.post('/:id', authMid, (req, res, next) => {
     const id = req.params.id;
     const productItemData = req.body;
-
+    console.log(productItemData)
     productService.update(id, productItemData)
         .then(product => res.json('Content item updated'))
         .catch(err => next(err));
