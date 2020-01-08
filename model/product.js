@@ -15,7 +15,8 @@ const productSchema = new Schema({
         weight: {type: String, required: true},
         vat: {type: Number, required: true},
         totalPrice: {type: String, required: true},
-        product_data: {type: String,required: true}
+        product_data: {type: String,required: true},
+        history: {type: Array, default: []},
    
 });
 // // Getter
