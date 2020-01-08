@@ -16,7 +16,8 @@ const productSchema = new Schema({
         vat: {type: Number, required: true},
         totalPrice: {type: String, required: true},
         product_data: {type: String,required: true},
-        history: {type: Array, default: []},
+        history: {type: Object,
+                required: true},
    
 });
 // // Getter
@@ -28,5 +29,8 @@ const productSchema = new Schema({
 //   productSchema.path('price').set(function(num) {
 //     return num * 100;
 //   });
-
+productSchema.pre('findByIdAndUpdate', function (next) {
+        this.options.runValidators = true;
+        next();
+    });
 module.exports = mongoose.model('Products', productSchema);
