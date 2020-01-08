@@ -16,7 +16,7 @@ const productSchema = new Schema({
         vat: {type: Number, required: true},
         totalPrice: {type: String, required: true},
         product_data: {type: String,required: true},
-        history: {type:Array, default: {}}
+        history: {type:Object, required: true}
    
 });
 // // Getter
