@@ -7,6 +7,8 @@ const dishSchema = new Schema({
         description: {type: String, required: true},
         category:  {type: String, required: true},
         foodCost: {type: String,  required: true },
+        fC: {type: String,  required: true },
+        productMarginFC: {type: String,  required: true },
         bruttoPrice: {type: String,  required: true },
         productMargin: {type: String,  required: true },
         coating: {type: String,  required: true },
