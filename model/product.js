@@ -15,8 +15,8 @@ const productSchema = new Schema({
         supplier: {type: String,required: true},
         lossesPriceNetto: {type: String,required: false},
         losses: {type: String,required: false},
-        history: {type: Object,
-                required: true},
+        history: {type: Object, required: true},
+        recipe: {type: Object, required: false},
    
 });
 productSchema.pre('findByIdAndUpdate', function (next) {
