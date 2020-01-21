@@ -19,6 +19,13 @@ router.post('/:id', authMid, (req, res, next) => {
         .then(dish => res.json('Content item updated'))
         .catch(err => next(err));
 });
+router.delete('/:id', authMid, (req, res, next) => {
+    const id = req.params.id;
+
+    dishService.remove(id)
+        .then(dish => res.json('Content item deleted'))
+        .catch(err => next(err));
+});
 
 // list
 router.get('/', authMid, (req, res, next) => {
