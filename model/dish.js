@@ -14,7 +14,7 @@ const dishSchema = new Schema({
         bruttoPrice: {type: String,  required: true },
         productMargin: {type: String,  required: true },
         coating: {type: String,  required: true },
-        products: {type: Object,  required: false }
+        products: {type: Object,  required: true }
 });
 
 module.exports = mongoose.model('Dishes', dishSchema);

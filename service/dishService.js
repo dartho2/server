@@ -40,13 +40,13 @@ const dishService = {
         },
     
         update: (id, dishItemData) => {
-            const {name, foodCost, description, image, category, fC, productMarginFC, vat, bruttoPrice, coating , productMargin} = dishItemData;
+            const {name, foodCost, description, image, category, fC, productMarginFC, vat, bruttoPrice, coating , products, productMargin} = dishItemData;
             console.log(dishItemData);
     
             return new Promise((resolve, reject) => {
                 logger.debug(`Updating content item ${id} with:\n ${JSON.stringify(dishItemData, null, 2)} `);
     
-                Dish.findByIdAndUpdate(id, {name, image, foodCost, description, category, fC, productMarginFC,  bruttoPrice, vat, coating, productMargin}, {runValidators: true})
+                Dish.findByIdAndUpdate(id, {name, image, foodCost, description, category, fC, productMarginFC,  bruttoPrice,products, vat, coating, productMargin}, {runValidators: true})
                     .then(resolve)
                     .catch(err => reject(resolveErrorType(err)))
             });
