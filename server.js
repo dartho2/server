@@ -1,4 +1,3 @@
-require('rootpath')();
 const ApiError = require('./error').ApiError;
 const express = require('express');
 const router = express.Router();
