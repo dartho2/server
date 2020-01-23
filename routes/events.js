@@ -5,14 +5,15 @@ const logger = require('../libs/logger');
 const {getTime} = require('../utils');
 const conf = require('../configuration/configuration');
 const request = require('request');
-
+const authorize = require('_helpers/authorize')
+const Role = require('_helpers/role');
 const cache = {
     cached_at: 0,
     data: null
 };
 
 // reset cache
-router.get('/reset_cache', authMid, (req, res) => {
+router.get('/reset_cache', authorize(Role.Admin), (req, res) => {
     cache.cached_at = 0;
     cache.data = null;
     res.send('');
