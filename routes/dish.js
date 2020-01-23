@@ -6,7 +6,7 @@ const authorize = require('_helpers/authorize')
 const Role = require('_helpers/role');
 
 // routes
-// router.get('/', authorize(Role.Admin), getAll);
+router.get('/', authorize(Role.Admin), getAll);
 // add
 router.post('/', authMid, (req, res, next) => {
     const dishData = req.body;
@@ -38,16 +38,16 @@ router.delete('/:id', authMid, (req, res, next) => {
 // }
 
 // list
-// function getAll(req, res, next) {
-//     dishService.getAll()
-//         .then(dish => res.json(dish))
-//         .catch(err => next(err));
-// }
-router.get('/', authMid,(req, res, next) => {
+function getAll(req, res, next) {
     dishService.getAll()
         .then(dish => res.json(dish))
         .catch(err => next(err));
-});
+}
+// router.get('/', (req, res, next) => {
+//     dishService.getAll()
+//         .then(dish => res.json(dish))
+//         .catch(err => next(err));
+// });
 router.get('/:id', (req, res, next) => {
     const id = req.params.id;
     dishService.get(id)
