@@ -1,4 +1,5 @@
 const ApiError = require('./error').ApiError;
+const errorHandler = require('_helpers/error-handler');
 const express = require('express');
 const router = express.Router();
 const app = express();
@@ -11,19 +12,21 @@ const logger = require('./libs/logger');
 const authMid = require('./middleware/authorization');
 const loggingMid = require('./middleware/logging');
 const conf = require('./configuration/configuration');
-const errorHandler = require('_helpers/error-handler');
+
 const getHttpsCredentials = Utils.getHttpsCredentials;
 const https = require('https');
 
-app.use(bodyParser.urlencoded({extended: true}));
+app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
 app.use(cors());
 app.use(compression());
 app.use(loggingMid);
-app.use(jwt());
-app.use('/users', require('./users/users.controller'));
-app.use(errorHandler);
 
+// api routes
+app.use('/api/users', require('./users/users.controller'));
+
+// global error handler
+app.use(errorHandler);
 mongoose.connect(conf.database_uri, {useNewUrlParser: true});
 
 // ROUTESs
