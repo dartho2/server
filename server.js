@@ -11,7 +11,6 @@ const logger = require('./libs/logger');
 const authMid = require('./middleware/authorization');
 const loggingMid = require('./middleware/logging');
 const conf = require('./configuration/configuration');
-const jwt = require('_helpers/jwt');
 const errorHandler = require('_helpers/error-handler');
 const getHttpsCredentials = Utils.getHttpsCredentials;
 const https = require('https');
