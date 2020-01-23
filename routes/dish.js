@@ -3,6 +3,7 @@ const router = express.Router();
 const authMid = require('../middleware/authorization');
 const dishService = require("../service/dishService.js");
 const authorize = require('_helpers/authorize')
+const Role = require('_helpers/role');
 
 // add
 router.post('/', authMid, (req, res, next) => {
