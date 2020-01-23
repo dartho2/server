@@ -2,6 +2,7 @@ const express = require('express');
 const router = express.Router();
 const authMid = require('../middleware/authorization');
 const dishService = require("../service/dishService.js");
+const authorize = require('_helpers/authorize')
 
 // add
 router.post('/', authMid, (req, res, next) => {
@@ -28,7 +29,7 @@ router.delete('/:id', authMid, (req, res, next) => {
 });
 
 // list
-router.get('/', authMid, (req, res, next) => {
+router.get('/', authorize(Role.Admin), (req, res, next) => {
     dishService.getAll()
         .then(dish => res.json(dish))
         .catch(err => next(err));
