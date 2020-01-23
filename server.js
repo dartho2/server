@@ -1,4 +1,3 @@
-require('rootpath')();
 const ApiError = require('./error').ApiError;
 const errorHandler = require('_helpers/error-handler');
 const express = require('express');
@@ -27,7 +26,7 @@ app.use(loggingMid);
 app.use('/api/users', require('./users/users.controller'));
 
 // global error handler
-app.use(errorHandler);
+// app.use(errorHandler);
 mongoose.connect(conf.database_uri, {useNewUrlParser: true});
 
 // ROUTESs
