@@ -1,3 +1,4 @@
+require('rootpath')();
 const ApiError = require('./error').ApiError;
 const errorHandler = require('_helpers/error-handler');
 const express = require('express');
