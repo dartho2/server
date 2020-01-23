@@ -31,11 +31,11 @@ router.delete('/:id', authMid, (req, res, next) => {
         .catch(err => next(err));
 });
 
-function getAll(req, res, next) {
-    userService.getAll()
-        .then(users => res.json(users))
-        .catch(err => next(err));
-}
+// function getAll(req, res, next) {
+//     userService.getAll()
+//         .then(users => res.json(users))
+//         .catch(err => next(err));
+// }
 
 // list
 function getAll(req, res, next) {
