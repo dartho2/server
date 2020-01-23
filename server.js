@@ -1,5 +1,6 @@
+﻿require('rootpath')();
 const ApiError = require('./error').ApiError;
-const errorHandler = require('helpers/error-handler');
+const errorHandler = require('_helpers/error-handler');
 const express = require('express');
 const router = express.Router();
 const app = express();
@@ -23,7 +24,6 @@ app.use(compression());
 app.use(loggingMid);
 
 // api routes
-app.use('/api/users', require('./users/users.controller'));
 
 // global error handler
 app.use(errorHandler);
@@ -50,6 +50,8 @@ router.get("/images", authMid, (req, res, next) => {
 router.get('/validate_token', authMid, function (req, res) {
 	    res.send('');
 });
+
+app.use('/api/users', require('./users/users.controller'));
 app.use('/api/events', require('./routes/events'));
 app.use('/api/analystic', require('./routes/analystic'));
 app.use('/api/portals', require('./routes/portal'));
