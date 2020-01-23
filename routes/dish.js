@@ -30,7 +30,7 @@ router.delete('/:id', authMid, (req, res, next) => {
 });
 
 // list
-router.get('/', authorize(Role.Admin), getAll, (req, res, next) => {
+router.get('/', authorize(Role.Admin), (req, res, next) => {
     dishService.getAll()
         .then(dish => res.json(dish))
         .catch(err => next(err));
