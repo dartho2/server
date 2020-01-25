@@ -6,7 +6,7 @@ const authorize = require('_helpers/authorize')
 const Role = require('_helpers/role');
 
 // routes
-router.get('/', authorize(Role.Admin), (req, res, next) => {
+router.get('/', authorize(), (req, res, next) => {
     dishService.getAll()
         .then(dish => res.json(dish))
         .catch(err => next(err));
