@@ -33,6 +33,13 @@ router.get('/:id', authorize(Role.Admin), (req, res, next) => {
         .then(contentProduct => res.json(contentProduct))
         .catch(err => next(err));
 });
+router.delete('/:id', authorize(Role.Admin), (req, res, next) => {
+    const id = req.params.id;
+
+    productService.remove(id)
+        .then(dish => res.json('Content item deleted'))
+        .catch(err => next(err));
+});
 
 
 module.exports = router;
