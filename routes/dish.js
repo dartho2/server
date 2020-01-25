@@ -19,7 +19,7 @@ router.post('/', authorize(Role.Admin), (req, res, next) => {
         .then(dish => res.status(201).json(dish))
         .catch(err => next(err));
 });
-router.post('/:id', authorize(Role.Admin), (req, res, next) => {
+router.post('/:id', authorize(), (req, res, next) => {
     const id = req.params.id;
     const dishItemData = req.body;
 
@@ -43,7 +43,7 @@ router.delete('/:id', authorize(Role.Admin), (req, res, next) => {
 //         .then(dish => res.json(dish))
 //         .catch(err => next(err));
 // });
-router.get('/:id', authorize(Role.Admin),(req, res, next) => {
+router.get('/:id', authorize(),(req, res, next) => {
     const id = req.params.id;
     dishService.get(id)
         .then(contentDish => res.json(contentDish))
