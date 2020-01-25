@@ -5,9 +5,8 @@ const productService = require("../service/productService.js");
 const authorize = require('_helpers/authorize')
 const Role = require('_helpers/role');
 // add
-router.post('/', authorize(Role.Admin), (req, res, next) => {
+router.post('/', authorize(), (req, res, next) => {
     const productData = req.body;
-
     productService.add(productData)
         .then(product => res.status(201).json(product))
         .catch(err => next(err));
@@ -22,12 +21,12 @@ router.post('/:id', authorize(Role.Admin), (req, res, next) => {
 });
 
 // list
-router.get('/', authorize(Role.Admin),(req, res, next) => {
+router.get('/', authorize(),(req, res, next) => {
     productService.getAll()
         .then(product => res.json(product))
         .catch(err => next(err));
 });
-router.get('/:id', authorize(Role.Admin), (req, res, next) => {
+router.get('/:id', authorize(), (req, res, next) => {
     const id = req.params.id;
     productService.get(id)
         .then(contentProduct => res.json(contentProduct))
