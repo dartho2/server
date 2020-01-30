@@ -51,6 +51,8 @@ router.get('/validate_token', authMid, function (req, res) {
 	    res.send('');
 });
 
+app.use('/api/graphics', require('./routes/graphics'));
+app.use('/api/workers', require('./routes/workers'));
 app.use('/api/users', require('./users/users.controller'));
 app.use('/api/events', require('./routes/events'));
 app.use('/api/analystic', require('./routes/analystic'));
