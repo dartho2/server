@@ -50,7 +50,7 @@ router.get("/images", authMid, (req, res, next) => {
 router.get('/validate_token', authMid, function (req, res) {
 	    res.send('');
 });
-app.use('/api/equipment', require('./routes/equipments'));
+app.use('/api/equipments', require('./routes/equipments'));
 app.use('/api/graphics', require('./routes/graphics'));
 app.use('/api/workers', require('./routes/workers'));
 app.use('/api/users', require('./users/users.controller'));
