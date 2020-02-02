@@ -6,6 +6,7 @@ const resService = {
     getAll: () => {
         return new Promise((resolve, reject) => {
             Rest.find()
+            .populate('itemsres')
                 .then(resolve)
                 .catch(err => reject(err))
         });
