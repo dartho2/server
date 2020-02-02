@@ -46,7 +46,7 @@ const resItemService = {
             return new Promise((resolve, reject) => {
                 logger.debug(`Updating content item ${id} with:\n ${JSON.stringify(resItemData, null, 2)} `);
     
-                ResItem.findByIdAndUpdate(id, {name, value}, {runValidators: true})
+                ResItem.findByIdAndUpdate(id, {name, value})
                     .then(resolve)
                     .catch(err => reject(resolveErrorType(err)))
             });
