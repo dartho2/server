@@ -27,6 +27,9 @@ router.post('/:id', authorize(), (req, res, next) => {
         .then(rest => res.json('Content item updated'))
         .catch(err => next(err));
 });
+
+
+
 router.delete('/:id', authorize(Role.Admin), (req, res, next) => {
     const id = req.params.id;
 
@@ -36,13 +39,6 @@ router.delete('/:id', authorize(Role.Admin), (req, res, next) => {
 });
 
 
-// list
-
-// router.get('/', (req, res, next) => {
-//     dishService.getAll()
-//         .then(dish => res.json(dish))
-//         .catch(err => next(err));
-// });
 router.get('/:id', authorize(),(req, res, next) => {
     const id = req.params.id;
     resService.get(id)
