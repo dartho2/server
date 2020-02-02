@@ -46,7 +46,7 @@ const resService = {
             return new Promise((resolve, reject) => {
                 logger.debug(`Updating content item ${id} with:\n ${JSON.stringify(restItemData, null, 2)} `);
     
-                Rest.findByIdAndUpdate(id, {itemsRes}, {runValidators: true})
+                Rest.findByIdAndUpdate(id, {itemsRes})
                     .then(resolve)
                     .catch(err => reject(resolveErrorType(err)))
             });
