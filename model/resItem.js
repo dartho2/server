@@ -10,7 +10,7 @@ const restItemSchema = new Schema({
 restItemSchema.pre('remove', function (next) {
         const restaurant = this;
     
-        Rest.updateMany({}, {$pullAll: {itemsRes: [restaurant._id]}})
+        Rest.updateMany({}, {$pullAll: {itemsres: [restaurant._id]}})
             .then(() => next())
             .catch(err => console.log(JSON.stringify(err)));
     });
