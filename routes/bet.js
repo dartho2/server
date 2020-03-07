@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const authMid = require('../middleware/authorization');
-const dishService = require("../service/betService.js");
+const betService  = require("../service/betService.js");
 const authorize = require('_helpers/authorize')
 const Role = require('_helpers/role');
 
