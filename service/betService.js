@@ -18,8 +18,9 @@ const betService = {
         });
     },
     get: (id) => {
+        console.log(id)
         return new Promise((resolve, reject) => {
-            Bet.findById(id)
+            Bet.findOne({date: id})
                 .then(resolve)
                 .catch(err => reject(err))
         });
