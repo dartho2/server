@@ -36,7 +36,7 @@ router.delete('/:id', authorize(Role.Admin), (req, res, next) => {
 });
 
 router.get('/:id', authorize(),(req, res, next) => {
-    const id = req.params.date;
+    const id = req.params.id;
     betService.get(id)
         .then(contentDish => res.json(contentDish))
         .catch(err => next(err));
