@@ -40,13 +40,13 @@ const betService = {
         },
     
         update: (id, betItemData) => {
-            const {name, type, typeYT,typeBT,typeVI,date,dateControl,league,idEvent,win,vot1,votX,vot2} = dishItemData;
+            const {date, events} = dishItemData;
             console.log(betItemData);
     
             return new Promise((resolve, reject) => {
                 logger.debug(`Updating content item ${id} with:\n ${JSON.stringify(betItemData, null, 2)} `);
     
-                Bet.findByIdAndUpdate(id, {name, type, typeYT,typeBT,typeVI,date,dateControl,league,idEvent,win,vot1,votX,vot2}, {runValidators: true})
+                Bet.findByIdAndUpdate(id, {date,events}, {runValidators: true})
                     .then(resolve)
                     .catch(err => reject(resolveErrorType(err)))
             });
