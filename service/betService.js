@@ -40,7 +40,7 @@ const betService = {
         },
     
         update: (id, betItemData) => {
-            const {date, status,events} = dishItemData;
+            const {date, status,events} = betItemData;
             console.log(betItemData);
     
             return new Promise((resolve, reject) => {
