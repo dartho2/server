@@ -14,7 +14,6 @@ const authMid = require('./middleware/authorization');
 const loggingMid = require('./middleware/logging');
 const conf = require('./configuration/configuration');
 
-const getHttpsCredentials = Utils.getHttpsCredentials;
 const https = require('https');
 
 app.use(bodyParser.urlencoded({extended: false}));
