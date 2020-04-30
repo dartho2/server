@@ -87,6 +87,3 @@ server.listen(conf.port, () => {
     logger.info(`HTTP${httpsCredentials ? 'S' : ''} server started on port: ${conf.port} with env: ${conf.env}`);
     logger.debug(JSON.stringify(conf, null, 3))
 });
-
-
-
