@@ -68,6 +68,7 @@ app.use('/api/service', require('./routes/service'));
 app.use('/api', require('./routes/health'));
 app.use('/api/carnets', require('./routes/carnets'));
 app.use('/api/dish', require('./routes/dish'));
+app.use('/api/standings', require('./routes/standings'));
 app.use('/api/products', require('./routes/products'));
 // ERROR HANDLER //////////////////////////////////////////
 
