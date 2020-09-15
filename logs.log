@@ -13264,3 +13264,188 @@
 [2020-07-31T10:46:39.641] [INFO] default - Responding with HTTP 200
 [2020-07-31T10:46:39.650] [INFO] default - Responding with HTTP 200
 [2020-07-31T10:46:39.650] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:25:46.069] [INFO] default - HTTPS server started on port: 8080 with env: dev
+[2020-09-15T14:25:46.071] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb://user1:mlabkarma321@ds133533.mlab.com:33533/karma",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2020-09-15T14:26:19.597] [INFO] default - Handling GET /api/portals
+[2020-09-15T14:26:20.020] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:20.066] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:21.105] [INFO] default - Handling GET /api/portals
+[2020-09-15T14:26:21.106] [DEBUG] default - Returning cached portals
+[2020-09-15T14:26:21.106] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:21.123] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:22.111] [INFO] default - Handling GET /api/portals
+[2020-09-15T14:26:22.112] [DEBUG] default - Returning cached portals
+[2020-09-15T14:26:22.113] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:22.131] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:22.183] [INFO] default - Handling GET /api/portals
+[2020-09-15T14:26:22.184] [DEBUG] default - Returning cached portals
+[2020-09-15T14:26:22.184] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:22.207] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:29.493] [INFO] default - Handling GET /api/users/1
+[2020-09-15T14:26:29.499] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:29.499] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:29.506] [INFO] default - Handling GET /api/restaurants
+[2020-09-15T14:26:29.594] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:29.595] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:31.417] [INFO] default - Handling GET /api/bet/
+[2020-09-15T14:26:31.470] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:31.473] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:31.547] [INFO] default - Handling GET /api/events/8809741
+[2020-09-15T14:26:31.558] [INFO] default - Handling GET /api/events/8841485
+[2020-09-15T14:26:31.576] [INFO] default - Handling GET /api/events/8809784
+[2020-09-15T14:26:31.586] [INFO] default - Handling GET /api/events/8738500
+[2020-09-15T14:26:31.657] [INFO] default - Handling GET /api/events/8738542
+[2020-09-15T14:26:31.668] [INFO] default - Handling GET /api/events/8738916
+[2020-09-15T14:26:32.002] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:32.002] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:32.007] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:32.008] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:32.015] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:32.015] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:32.021] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:32.022] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:32.027] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:32.027] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:32.037] [INFO] default - Handling GET /api/events/8738531
+[2020-09-15T14:26:32.040] [INFO] default - Handling GET /api/events/8738928
+[2020-09-15T14:26:32.050] [INFO] default - Handling GET /api/events/8819924
+[2020-09-15T14:26:32.056] [INFO] default - Handling GET /api/events/8819913
+[2020-09-15T14:26:32.058] [INFO] default - Handling GET /api/events/8840530
+[2020-09-15T14:26:32.170] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:32.171] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:32.197] [INFO] default - Handling GET /api/events/8841483
+[2020-09-15T14:26:32.252] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:32.252] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:32.255] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:32.255] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:32.268] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:32.269] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:32.276] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:32.276] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:32.282] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:32.283] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:32.287] [INFO] default - Handling GET /api/events/8809767
+[2020-09-15T14:26:32.295] [INFO] default - Handling GET /api/events/8832997
+[2020-09-15T14:26:32.318] [INFO] default - Handling GET /api/events/8679263
+[2020-09-15T14:26:32.320] [INFO] default - Handling GET /api/events/8679262
+[2020-09-15T14:26:32.325] [INFO] default - Handling GET /api/events/8679259
+[2020-09-15T14:26:32.414] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:32.414] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:32.444] [INFO] default - Handling GET /api/events/8841485
+[2020-09-15T14:26:32.521] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:32.522] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:32.533] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:32.533] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:32.537] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:32.538] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:32.548] [INFO] default - Handling GET /api/events/8809741
+[2020-09-15T14:26:32.553] [INFO] default - Handling GET /api/events/8809784
+[2020-09-15T14:26:32.561] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:32.561] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:32.570] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:32.570] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:32.575] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:32.575] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:32.577] [INFO] default - Handling GET /api/events/8738542
+[2020-09-15T14:26:32.610] [INFO] default - Handling GET /api/events/8840530
+[2020-09-15T14:26:32.642] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:32.643] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:32.650] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:32.651] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:32.658] [INFO] default - Handling GET /api/events/8809741
+[2020-09-15T14:26:32.667] [INFO] default - Handling GET /api/events/8809784
+[2020-09-15T14:26:32.689] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:32.690] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:32.717] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:32.718] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:32.756] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:32.757] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:32.765] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:32.765] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:32.780] [INFO] default - Handling GET /api/events/8809741
+[2020-09-15T14:26:32.870] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:32.871] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:32.885] [INFO] default - Handling GET /api/events/8809741
+[2020-09-15T14:26:32.980] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:32.981] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:32.999] [INFO] default - Handling GET /api/events/8809741
+[2020-09-15T14:26:33.089] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:33.089] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:33.112] [INFO] default - Handling GET /api/events/8809741
+[2020-09-15T14:26:33.206] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:33.207] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:48.299] [INFO] default - Handling GET /api/analystic/2020-09-15
+[2020-09-15T14:26:48.306] [INFO] default - Handling GET /api/analystic/2020-09-01
+[2020-09-15T14:26:48.756] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:48.763] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:48.779] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:48.784] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:49.073] [INFO] default - Handling GET /api/events/8818150
+[2020-09-15T14:26:49.088] [INFO] default - Handling GET /api/events/8856073
+[2020-09-15T14:26:49.098] [INFO] default - Handling GET /api/events/8818124
+[2020-09-15T14:26:49.281] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:49.282] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:49.284] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:49.284] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:49.452] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:49.453] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:53.023] [INFO] default - Handling GET /api/analystic/2020-09-15
+[2020-09-15T14:26:53.025] [INFO] default - Handling GET /api/analystic/2020-09-01
+[2020-09-15T14:26:53.176] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:53.200] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:53.241] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:53.248] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:53.390] [INFO] default - Handling GET /api/events/8856073
+[2020-09-15T14:26:53.395] [INFO] default - Handling GET /api/events/8818150
+[2020-09-15T14:26:53.396] [INFO] default - Handling GET /api/events/8818124
+[2020-09-15T14:26:53.409] [INFO] default - Handling GET /api/events/8746559
+[2020-09-15T14:26:53.479] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:53.480] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:53.483] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:53.483] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:53.485] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:53.485] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:53.620] [INFO] default - Handling GET /api/events/8746527
+[2020-09-15T14:26:53.633] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:53.634] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:53.860] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:26:53.861] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:27:00.577] [INFO] default - Handling GET /api/dish
+[2020-09-15T14:27:00.584] [INFO] default - Handling GET /api/users/1
+[2020-09-15T14:27:00.586] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:27:00.586] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:27:00.725] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:27:00.744] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:33:53.914] [INFO] default - Handling GET /api/dish
+[2020-09-15T14:33:53.928] [INFO] default - Handling GET /api/users/1
+[2020-09-15T14:33:53.929] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:33:53.930] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:33:54.077] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:33:54.091] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:41:58.370] [INFO] default - Handling GET /api/portals
+[2020-09-15T14:41:58.725] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:41:58.758] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:41:58.899] [INFO] default - Handling GET /api/portals
+[2020-09-15T14:41:58.900] [DEBUG] default - Returning cached portals
+[2020-09-15T14:41:58.900] [INFO] default - Responding with HTTP 200
+[2020-09-15T14:41:58.918] [INFO] default - Responding with HTTP 200
