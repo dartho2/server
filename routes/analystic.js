@@ -8,7 +8,7 @@ const conf = require('../configuration/configuration');
 const request = require('request');
 
 
-router.get('/:id', (req, res, next) => {
+router.get('/:id', authorize(), (req, res, next) => {
     const id = req.params.id;
     request.get("https://www.sofascore.com/football//"+id+"/json?",   
     (err, response, body) => {
