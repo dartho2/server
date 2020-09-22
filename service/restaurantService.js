@@ -40,17 +40,18 @@ const resService = {
             });
         },
     
-        update: (id, restItemData) => {
-            const {itemsRes} = restItemData;
+      update: (id, restItemData) => {
+            const {itemsres} = restItemData;
             console.log(restItemData);
     
             return new Promise((resolve, reject) => {
-                logger.debug(`Updating content item ${id} with:\n ${JSON.stringify(restItemData, null, 2)} `);
+                logger.debug(`Updating content item ${id} with data: `,restItemData );
     
-                Rest.findByIdAndUpdate(id, {itemsRes})
+                Rest.findByIdAndUpdate(id, {itemsres})
                     .then(resolve)
                     .catch(err => reject(resolveErrorType(err)))
             });
+    
         },
     };
 
