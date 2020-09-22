@@ -40,7 +40,7 @@ const resItemService = {
         },
     
         update: (id, resItemData) => {
-            const {name, value} = dishItemData;
+            const {name, value} = resItemData;
             console.log(resItemData);
     
             return new Promise((resolve, reject) => {
