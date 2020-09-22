@@ -7,9 +7,4 @@ const restSchema = new Schema({
         // value: {type: String, required: true, unique: true},
        
 });
-const RestaurantItemSchema = new Schema({
-     name: {type: String, required: true, unique: true},
-     value: {type: String, required: true, unique: true},
-});
-module.exports  = mongoose.model('RestaurantItem', RestaurantItemSchema);
 module.exports = mongoose.model('Restaurants', restSchema);
