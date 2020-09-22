@@ -5,8 +5,7 @@ const logger = require('../libs/logger');
 const resService = {
     getAll: () => {
         return new Promise((resolve, reject) => {
-            Rest.find()
-            .populate('itemsres')
+          Rest.find()
                 .then(resolve)
                 .catch(err => reject(err))
         });
