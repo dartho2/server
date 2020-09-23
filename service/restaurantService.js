@@ -40,13 +40,13 @@ const resService = {
         },
     
       update: (id, restItemData) => {
-            const {itemsres} = restItemData;
+            const {name, value} = restItemData;
             console.log(restItemData);
     
             return new Promise((resolve, reject) => {
                 logger.debug(`Updating content item ${id} with data: `,restItemData );
     
-                Rest.findByIdAndUpdate(id, {itemsres})
+                Rest.findByIdAndUpdate(id, name, value)
                     .then(resolve)
                     .catch(err => reject(resolveErrorType(err)))
             });
