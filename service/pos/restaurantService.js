@@ -55,7 +55,7 @@ const restaurantService = {
         const {employees, storages } = restaurantData;
         return new Promise((resolve, reject) => {
             logger.debug(`Restaurant section ${id} with data: `, restaurantData);
-            Portal.findByIdAndUpdate(id, {employees, storages})
+            Restaurant.findByIdAndUpdate(id, {employees, storages})
                 .then(resolve)
                 .catch(err => reject(err));
         });
