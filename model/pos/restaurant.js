@@ -9,7 +9,8 @@ const restaurantSchema = new Schema(
         logo: {type: String, default: null},
         images_top: {type: Array, default: []},
         active: {type: Boolean, default: true},
-        storages: [{type: Schema.Types.ObjectId, ref: 'Storage'}]
+        storages: [{type: Schema.Types.ObjectId, ref: 'Storage'}],
+        employees: [{type: Schema.Types.ObjectId, ref: 'Employee'}]
     },
     {
         versionKey: false,
