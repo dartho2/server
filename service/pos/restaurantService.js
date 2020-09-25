@@ -9,7 +9,11 @@ const restaurantService = {
             Restaurant.find()
                 .populate({
                     path: 'storages',
-                    model: 'Storage'
+                    model: 'Storage',
+                    populate: {
+                        path: 'products',
+                        model: 'Product'
+                    }
                 })
                 .populate({
                     path: 'employees',
@@ -25,7 +29,11 @@ const restaurantService = {
             Restaurant.findById(id)
                 .populate({
                     path: 'storages',
-                    model: 'Storage'
+                    model: 'Storage',
+                    populate: {
+                        path: 'products',
+                        model: 'Product'
+                    }
                 })
                 .populate({
                     path: 'employees',
