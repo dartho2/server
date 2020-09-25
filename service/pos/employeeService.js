@@ -7,7 +7,7 @@ const employeeService = {
     getAll: () => {
         return new Promise((resolve, reject) => {
             Employee.find()
-                .populate('worker')
+                .populate('workers')
                 .then(resolve)
                 .catch(err => reject(err))
         });
@@ -25,10 +25,9 @@ const employeeService = {
         });
     },
 
-    add: (employeeItemData) => {
+    add: (employeeData) => {
         return new Promise((resolve, reject) => {
-            logger.debug(`Adding content item: `, employeeItemData);
-            new Employee(employeeItemData).save()
+            new Employee(employeeData).save()
                 .then(resolve)
                 .catch(err => reject(resolveErrorType(err)))
         });
