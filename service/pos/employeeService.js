@@ -7,6 +7,7 @@ const employeeService = {
     getAll: () => {
         return new Promise((resolve, reject) => {
             Employee.find()
+                .populate('worker')
                 .then(resolve)
                 .catch(err => reject(err))
         });
@@ -15,6 +16,10 @@ const employeeService = {
     get: (id) => {
         return new Promise((resolve, reject) => {
             Employee.findById(id)
+                .populate({
+                    path: 'workers',
+                    model: 'Worker'
+                })
                 .then(resolve)
                 .catch(err => reject(err))
         });
@@ -44,13 +49,13 @@ const employeeService = {
     },
 
     update: (id, employeeItemData) => {
-        const {name, value, price, active } = employeeItemData;
+        const {name, value, price, active,label, workers } = employeeItemData;
         console.log(employeeItemData);
 
         return new Promise((resolve, reject) => {
             logger.debug(`Updating employe item ${id} with:\n ${JSON.stringify(employeeItemData, null, 2)} `);
 
-            Employee.findByIdAndUpdate(id, {name, value, price, active}, {runValidators: true})
+            Employee.findByIdAndUpdate(id, {name, value, price, active,label,workers}, {runValidators: true})
                 .then(resolve)
                 .catch(err => reject(resolveErrorType(err)))
         });

@@ -6,8 +6,10 @@ const restaurantSchema = new Schema(
     {
         name: {type: String, required: true, unique: true},
         value: {type: String, required: false},
+        label: {type: String, required: false},
         price: {type: String, required: false},
         active: {type: Boolean, default: true},
+        workers: [{type: Schema.Types.ObjectId, ref: 'Worker'}]
     },
     {
         versionKey: false,
