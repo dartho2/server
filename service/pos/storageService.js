@@ -27,7 +27,7 @@ const storageService = {
 
     add: (storageData) => {
         return new Promise((resolve, reject) => {
-            new Section(storageData).save()
+            new Storage(storageData).save()
                 .then(resolve)
                 .catch(err => reject(resolveErrorType(err)))
         });
