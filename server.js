@@ -71,7 +71,10 @@ app.use('/api/dish', require('./routes/dish'));
 app.use('/api/standings', require('./routes/standings'));
 app.use('/api/products', require('./routes/products'));
 // ERROR HANDLER //////////////////////////////////////////
-
+// POS //
+app.use('/api/pos/restaurant', require('./routes/pos/restaurant'));
+app.use('/api/pos/storage', require('./routes/pos/storage'));
+// POS END //
 router.use((err, req, res, next) => {
     if (err instanceof ApiError) {
         res.status(err.type.http_status).json(err);

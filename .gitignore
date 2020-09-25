@@ -2,3 +2,8 @@ node_modules
 .idea
 certs/
 logs.loggit
+logs.log.[0-9]
+configuration/
+out.out
+output.log
+config.json

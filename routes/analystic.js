@@ -6,7 +6,7 @@ const logger = require('../libs/logger');
 const {getTime} = require('../utils');
 const conf = require('../configuration/configuration');
 const request = require('request');
-
+const authorize = require('_helpers/authorize')
 
 router.get('/:id', authorize(), (req, res, next) => {
     const id = req.params.id;
