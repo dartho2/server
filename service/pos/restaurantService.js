@@ -10,6 +10,9 @@ const restaurantService = {
                 .populate({
                     path: 'storages',
                     model: 'Storage'
+                },{
+                    path: 'employees',
+                    model: 'Employee'
                 })
                 .then(resolve)
                 .catch(err => reject(err))
@@ -22,6 +25,10 @@ const restaurantService = {
                 .populate({
                     path: 'storages',
                     model: 'Storage'
+                },
+                {
+                    path: 'employees',
+                    model: 'Employee'
                 })
                 .then(resolve)
                 .catch(err => reject(err))
@@ -30,7 +37,7 @@ const restaurantService = {
 
     add: (restaurantData) => {
         return new Promise((resolve, reject) => {
-            new Portal(restaurantData).save()
+            new Restaurant(restaurantData).save()
                 .then(resolve)
                 .catch(err => reject(resolveErrorType(err)))
         });
