@@ -1,4 +1,4 @@
-const Storage = require("../../model/pos/storage");
+const Storage = require("../../model/pos/storage.js");
 const resolveErrorType = require('../../error').resolveErrorType;
 const logger = require('../../libs/logger');
 

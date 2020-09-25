@@ -1,6 +1,6 @@
 const Restaurant = require("../../model/pos/restaurant");
-const resolveErrorType = require('../error').resolveErrorType;
-const logger = require('../libs/logger');
+const resolveErrorType = require('../../error').resolveErrorType;
+const logger = require('../../libs/logger');
 
 const restaurantService = {
 
