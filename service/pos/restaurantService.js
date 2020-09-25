@@ -8,9 +8,6 @@ const restaurantService = {
         return new Promise((resolve, reject) => {
             Restaurant.find()
                 .populate({
-                    path: 'employees',
-                    model: 'Employee'
-                },{
                     path: 'storages',
                     model: 'Storage'
                 })
@@ -23,9 +20,6 @@ const restaurantService = {
         return new Promise((resolve, reject) => {
             Restaurant.findById(id)
                 .populate({
-                    path: 'employees',
-                    model: 'Employee'
-                },{
                     path: 'storages',
                     model: 'Storage'
                 })
