@@ -2,11 +2,12 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 const Restaurant = require('./restaurant');
 
-const storageSchema = new Schema(
+const restaurantSchema = new Schema(
     {
         name: {type: String, required: true, unique: true},
-        label: {type: String, required: false},
-        active: {type: Boolean, default: true}
+        value: {type: String, required: false},
+        price: {type: String, required: false},
+        active: {type: Boolean, default: true},
     },
     {
         versionKey: false,
@@ -17,12 +18,12 @@ const storageSchema = new Schema(
     }
 );
 
-storageSchema.pre('remove', function (next) {
-    const storage = this;
+restaurantSchema.pre('remove', function (next) {
+    const employee = this;
 
-    Restaurant.updateMany({}, {$pullAll: {storages: [storage._id]}})
+    Restaurant.updateMany({}, {$pullAll: {employees: [employee._id]}})
         .then(() => next())
         .catch(err => console.log(JSON.stringify(err)));
 });
 
-module.exports = mongoose.model('Storage', storageSchema);
+module.exports = mongoose.model('Employee', restaurantSchema);

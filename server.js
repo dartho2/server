@@ -74,6 +74,7 @@ app.use('/api/products', require('./routes/products'));
 // POS //
 app.use('/api/pos/restaurant', require('./routes/pos/restaurant'));
 app.use('/api/pos/storage', require('./routes/pos/storage'));
+app.use('/api/pos/employee', require('./routes/pos/employee'));
 // POS END //
 router.use((err, req, res, next) => {
     if (err instanceof ApiError) {
