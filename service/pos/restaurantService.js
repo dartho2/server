@@ -10,7 +10,8 @@ const restaurantService = {
                 .populate({
                     path: 'storages',
                     model: 'Storage'
-                },{
+                })
+                .populate({
                     path: 'employees',
                     model: 'Employee'
                 })
@@ -25,8 +26,8 @@ const restaurantService = {
                 .populate({
                     path: 'storages',
                     model: 'Storage'
-                },
-                {
+                })
+                .populate({
                     path: 'employees',
                     model: 'Employee'
                 })
