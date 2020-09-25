@@ -6,7 +6,8 @@ const storageSchema = new Schema(
     {
         name: {type: String, required: true, unique: true},
         label: {type: String, required: false},
-        active: {type: Boolean, default: true}
+        active: {type: Boolean, default: true},
+        products: [{type: Schema.Types.ObjectId, ref: 'Product'}]
     },
     {
         versionKey: false,

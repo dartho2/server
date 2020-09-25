@@ -7,7 +7,7 @@ const storageService = {
     getAll: () => {
         return new Promise((resolve, reject) => {
             Storage.find()
-                .populate('product')
+                .populate('products')
                 .then(resolve)
                 .catch(err => reject(err))
         });
@@ -17,8 +17,8 @@ const storageService = {
         return new Promise((resolve, reject) => {
             Storage.findById(id)
                 .populate({
-                    path: 'product',
-                    model: 'ProductItem'
+                    path: 'products',
+                    model: 'Product'
                 })
                 .then(resolve)
                 .catch(err => reject(err))
