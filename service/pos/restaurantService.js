@@ -15,10 +15,6 @@ const restaurantService = {
                     model: 'Product'
                 }
             })
-            .populate({
-                path: 'employees',
-                model: 'Employee'
-            })
                 .then(resolve)
                 .catch(err => reject(err))
         });
@@ -33,10 +29,6 @@ const restaurantService = {
                     path: 'products',
                     model: 'Product'
                 }
-            })
-            .populate({
-                path: 'employees',
-                model: 'Employee'
             })
                 .then(resolve)
                 .catch(err => reject(err))
