@@ -2,7 +2,6 @@ const express = require('express');
 const router = express.Router();
 const authMid = require('../../middleware/authorization');
 const restaurantService = require('../../service/pos/restaurantService');
-
 // add
 router.post('/', authMid, (req, res, next) => {
     const reData = req.body;

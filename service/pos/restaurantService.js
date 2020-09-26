@@ -7,14 +7,6 @@ const restaurantService = {
     getAll: () => {
         return new Promise((resolve, reject) => {
             Restaurant.find()
-            .populate({
-                path: 'storages',
-                model: 'Storage',
-                populate: {
-                    path: 'products',
-                    model: 'Product'
-                }
-            })
                 .then(resolve)
                 .catch(err => reject(err))
         });
@@ -22,14 +14,6 @@ const restaurantService = {
     get: (id) => {
         return new Promise((resolve, reject) => {
             Restaurant.findById(id)
-            .populate({
-                path: 'storages',
-                model: 'Storage',
-                populate: {
-                    path: 'products',
-                    model: 'Product'
-                }
-            })
                 .then(resolve)
                 .catch(err => reject(err))
         });
@@ -58,10 +42,10 @@ const restaurantService = {
     },
 
     update: (id, resData) => {
-        const {name,description,label, logo, images_top, active, storages, employees} = resData;
+        const {name,description,label, logo, images_top, active} = resData;
         return new Promise((resolve, reject) => {
             logger.debug(`Updating storage ${id} with: styles: \n`, JSON.stringify(resData, null, 3));
-            Restaurant.findByIdAndUpdate(id, {name,description,label, logo, images_top, active, storages, employees})
+            Restaurant.findByIdAndUpdate(id, {name,description,label, logo, images_top, active})
                 .then(resolve)
                 .catch(err => err);
         });
