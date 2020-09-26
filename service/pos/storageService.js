@@ -12,7 +12,6 @@ const storageService = {
                 .catch(err => reject(err))
         });
     },
-
     get: (id) => {
         return new Promise((resolve, reject) => {
             Storage.findById(id)
