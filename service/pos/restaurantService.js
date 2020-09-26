@@ -59,12 +59,26 @@ const restaurantService = {
                 .catch(err => reject(err));
         });
     },
-
+    
     update: (id, restaurantData) => {
-        const {employees, storages } = restaurantData;
+        const {name,
+            description,
+            label,
+            logo,
+            images_top,
+            active,
+            storages,
+            employees } = restaurantData;
         return new Promise((resolve, reject) => {
             logger.debug(`Restaurant section ${id} with data: `, restaurantData);
-            Restaurant.findByIdAndUpdate(id, {employees, storages})
+            Restaurant.findByIdAndUpdate(id, {name,
+                description,
+                label,
+                logo,
+                images_top,
+                active,
+                storages,
+                employees})
                 .then(resolve)
                 .catch(err => reject(err));
         });
