@@ -2,9 +2,9 @@ const express = require('express');
 const router = express.Router();
 const authMid = require('../../middleware/authorization');
 const storageService = require("../../service/pos/storageService");
-
+const authorize = require('_helpers/authorize')
 // add
-router.post('/', authMid, (req, res, next) => {
+router.post('/', authorize(Role.Admin) , (req, res, next) => {
     const storageData = req.body;
 
     storageService.add(storageData)
@@ -13,14 +13,14 @@ router.post('/', authMid, (req, res, next) => {
 });
 
 // list
-router.get('/', (req, res, next) => {
+router.get('/',authorize(), (req, res, next) => {
     storageService.getAll()
         .then(storage => res.json(storage))
         .catch(err => next(err));
 });
 
 // get one
-router.get('/:id', (req, res, next) => {
+router.get('/:id', authorize(),(req, res, next) => {
     const id = req.params.id;
 
     storageService.get(id)
@@ -29,7 +29,7 @@ router.get('/:id', (req, res, next) => {
 });
 
 // delete
-router.delete('/:id', authMid, (req, res, next) => {
+router.delete('/:id', authorize(Role.Admin), (req, res, next) => {
     const storageId = req.params.id;
 
     storageService.remove(storageId)
@@ -38,7 +38,7 @@ router.delete('/:id', authMid, (req, res, next) => {
 });
 
 // update
-router.post('/:id', authMid, (req, res, next) => {
+router.post('/:id', authorize(Role.Admin), (req, res, next) => {
     const id = req.params.id;
     const storageData = req.body;
 

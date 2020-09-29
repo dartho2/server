@@ -3,9 +3,9 @@ const express = require('express');
 const router = express.Router();
 const authMid = require('../../middleware/authorization');
 const workerService = require("../../service/pos/workerService");
-
+const authorize = require('_helpers/authorize')
 // add
-router.post('/', authMid, (req, res, next) => {
+router.post('/', authorize(Role.Admin), (req, res, next) => {
     const workerData = req.body;
 
     workerService.add(workerData)
@@ -14,7 +14,7 @@ router.post('/', authMid, (req, res, next) => {
 });
 
 // list
-router.get('/', (req, res, next) => {
+router.get('/', authorize(),(req, res, next) => {
     workerService.getAll()
         .then(workerData => res.json(workerData))
         .catch(err => next(err));
@@ -22,7 +22,7 @@ router.get('/', (req, res, next) => {
 
 
 // get one
-router.get('/:id', (req, res, next) => {
+router.get('/:id', authorize(), (req, res, next) => {
     const id = req.params.id;
 
     workerService.get(id)
@@ -31,7 +31,7 @@ router.get('/:id', (req, res, next) => {
 });
 
 // delete
-router.delete('/:id', authMid, (req, res, next) => {
+router.delete('/:id', authorize(Role.Admin), (req, res, next) => {
     const id = req.params.id;
 
     workerService.remove(id)
@@ -40,7 +40,7 @@ router.delete('/:id', authMid, (req, res, next) => {
 });
 
 // update
-router.post('/:id', authMid, (req, res, next) => {
+router.post('/:id', authorize(Role.Admin), (req, res, next) => {
     const id = req.params.id;
     const workerData = req.body;
 

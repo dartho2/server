@@ -2,9 +2,9 @@ const express = require('express');
 const router = express.Router();
 const authMid = require('../../middleware/authorization');
 const employeeService = require("../../service/pos/employeeService");
-
+const authorize = require('_helpers/authorize')
 // add
-router.post('/', authMid, (req, res, next) => {
+router.post('/', authorize(Role.Admin), (req, res, next) => {
     const employeeData = req.body;
 
     employeeService.add(employeeData)
@@ -13,14 +13,14 @@ router.post('/', authMid, (req, res, next) => {
 });
 
 // list
-router.get('/', (req, res, next) => {
+router.get('/', authorize(),(req, res, next) => {
     employeeService.getAll()
         .then(employee => res.json(employee))
         .catch(err => next(err));
 });
 
 // get one
-router.get('/:id', (req, res, next) => {
+router.get('/:id', authorize(),(req, res, next) => {
     const id = req.params.id;
 
     employeeService.get(id)
@@ -29,7 +29,7 @@ router.get('/:id', (req, res, next) => {
 });
 
 // delete
-router.delete('/:id', authMid, (req, res, next) => {
+router.delete('/:id', authorize(Role.Admin), (req, res, next) => {
     const employeeId = req.params.id;
 
     employeeService.remove(employeeId)
@@ -38,7 +38,7 @@ router.delete('/:id', authMid, (req, res, next) => {
 });
 
 // update
-router.post('/:id', authMid, (req, res, next) => {
+router.post('/:id', authorize(Role.Admin), (req, res, next) => {
     const id = req.params.id;
     const employeeData = req.body;
 
