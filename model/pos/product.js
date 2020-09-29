@@ -4,7 +4,7 @@ const Storage = require('./storage');
 
 const productSchema = new Schema(
     {
-        name: {type: String, required: true, unique: true},
+        name: {type: String, required: true, unique: false},
         description: {type: String, default: ""},
         image: {type: String, default: ""},
         nettoPrice: {type: String,  required: true },
