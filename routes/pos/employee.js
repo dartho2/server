@@ -2,7 +2,8 @@ const express = require('express');
 const router = express.Router();
 const authMid = require('../../middleware/authorization');
 const employeeService = require("../../service/pos/employeeService");
-const authorize = require('_helpers/authorize')
+const authorize = require('_helpers/authorize');
+const Role = require('_helpers/role');
 // add
 router.post('/', authorize(Role.Admin), (req, res, next) => {
     const employeeData = req.body;

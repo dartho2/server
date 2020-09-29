@@ -3,7 +3,8 @@ const express = require('express');
 const router = express.Router();
 const authMid = require('../../middleware/authorization');
 const productService = require("../../service/pos/productService");
-const authorize = require('_helpers/authorize')
+const authorize = require('_helpers/authorize');
+const Role = require('_helpers/role');
 // add
 router.post('/', authorize(Role.Admin), (req, res, next) => {
     const productData = req.body;
