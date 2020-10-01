@@ -40,13 +40,13 @@ const graphicService = {
         },
     
         update: (id, graphicItemData) => {
-            const {date,items} = graphicItemData;
+            const {date,items,restaurant} = graphicItemData;
             console.log(graphicItemData);
     
             return new Promise((resolve, reject) => {
                 logger.debug(`Updating content item ${id} with:\n ${JSON.stringify(graphicItemData, null, 2)} `);
     
-                Graphic.findByIdAndUpdate(id, {date,items}, {runValidators: true})
+                Graphic.findByIdAndUpdate(id, {date,items,restaurant}, {runValidators: true})
                     .then(resolve)
                     .catch(err => reject(resolveErrorType(err)))
             });
