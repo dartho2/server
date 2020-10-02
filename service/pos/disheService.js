@@ -22,7 +22,7 @@ const dishService = {
     add: (dishData) => {
         return new Promise((resolve, reject) => {
             logger.debug(`Adding Dish item: `, dishData);
-            new Product(dishData).save()
+            new Dish(dishData).save()
                 .then(resolve)
                 .catch(err => reject(resolveErrorType(err)))
         });
