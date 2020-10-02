@@ -40,4 +40,4 @@ dishSchema.pre('findByIdAndUpdate', function (next) {
     next();
 });
 
-module.exports = mongoose.model('Dishes', dishSchema);
+module.exports = mongoose.model('Dish', dishSchema);
