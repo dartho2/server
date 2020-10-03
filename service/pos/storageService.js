@@ -8,7 +8,7 @@ const storageService = {
         return new Promise((resolve, reject) => {
             Storage.find()
                 .populate('products')
-            .populate('dish')
+            .populate('dishes')
                 .then(resolve)
                 .catch(err => reject(err))
         });
