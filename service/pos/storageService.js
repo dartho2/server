@@ -24,6 +24,10 @@ const storageService = {
                     path: 'recipes',
                     model: 'Recipe'
                 })
+            .populate({
+                    path: 'dishes',
+                    model: 'Dish'
+                })
                 .then(resolve)
                 .catch(err => reject(err))
         });
