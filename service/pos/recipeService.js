@@ -6,7 +6,6 @@ const productService = {
     getAll: () => {
         return new Promise((resolve, reject) => {
             Recipe.find()
-            .populate('products')
                 .then(resolve)
                 .catch(err => reject(err))
         });
@@ -15,10 +14,6 @@ const productService = {
     get: (id) => {
         return new Promise((resolve, reject) => {
             Recipe.findById(id)
-            .populate({
-                path: 'products',
-                model: 'Product'
-            }) 
                 .then(resolve)
                 .catch(err => reject(err))
         });
