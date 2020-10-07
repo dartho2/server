@@ -8,6 +8,7 @@ const storageService = {
         return new Promise((resolve, reject) => {
             Storage.find()
                 .populate('products')
+                .populate('recipes')
                 .then(resolve)
                 .catch(err => reject(err))
         });
@@ -18,6 +19,10 @@ const storageService = {
                 .populate({
                     path: 'products',
                     model: 'Product'
+                }) 
+                .populate({
+                    path: 'recipes',
+                    model: 'Recipe'
                 })
                 .then(resolve)
                 .catch(err => reject(err))
@@ -46,10 +51,10 @@ const storageService = {
     },
 
     update: (id, storageData) => {
-        const {name,label, active,products} = storageData;
+        const {name,label, active,products,recipes} = storageData;
         return new Promise((resolve, reject) => {
             logger.debug(`Updating storage ${id} with: styles: \n`, JSON.stringify(storageData, null, 3));
-            Storage.findByIdAndUpdate(id, {name,label, active,products})
+            Storage.findByIdAndUpdate(id, {name,label, active,products,recipes})
                 .then(resolve)
                 .catch(err => err);
         });
