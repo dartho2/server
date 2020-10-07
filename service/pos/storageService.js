@@ -55,10 +55,10 @@ const storageService = {
     },
 
     update: (id, storageData) => {
-        const {name,label, active,products,recipes} = storageData;
+        const {name,label, active,products,recipes,dishes} = storageData;
         return new Promise((resolve, reject) => {
             logger.debug(`Updating storage ${id} with: styles: \n`, JSON.stringify(storageData, null, 3));
-            Storage.findByIdAndUpdate(id, {name,label, active,products,recipes})
+            Storage.findByIdAndUpdate(id, {name,label, active,products,recipes,dishes})
                 .then(resolve)
                 .catch(err => err);
         });
