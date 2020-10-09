@@ -31,7 +31,7 @@ const recipeitemsschema = new Schema(
 recipeitemsschema.pre('remove', function (next) {
     const productItem = this;
 
-    Recipe.updateMany({}, {$pullAll: {recipesitems: [productItem._id]}})
+    Recipe.updateMany({}, {$pullAll: {recipeitems: [productItem._id]}})
         .then(() => next())
         .catch(err => console.log(JSON.stringify(err)));
 });
