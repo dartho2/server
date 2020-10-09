@@ -88,7 +88,6 @@ router.use((err, req, res, next) => {
         res.status(500).json(err);
     }
 });
-
 app.use('/api', router);
 
 const httpsCredentials = getHttpsCredentials();

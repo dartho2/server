@@ -18,7 +18,6 @@ const recipeSchema = new Schema(
     }
 );
 
-
 recipeSchema.pre('remove', function (next) {
     const recipeItem = this;
 
