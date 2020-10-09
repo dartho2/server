@@ -36,7 +36,7 @@ recipeitemsschema.pre('remove', function (next) {
         .catch(err => console.log(JSON.stringify(err)));
 });
 
-productSchema.pre('findByIdAndUpdate', function (next) {
+recipeitemsschema.pre('findByIdAndUpdate', function (next) {
     this.options.runValidators = true;
     next();
 });
