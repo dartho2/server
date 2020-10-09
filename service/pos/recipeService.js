@@ -43,11 +43,11 @@ const recipeService = {
     },
 
     update: (id, recipeData) => {
-        const {name,label, active,products,recipesitems} = recipeData;
+        const {name,label, active,products,recipeitems} = recipeData;
         
         return new Promise((resolve, reject) => {
             logger.debug(`Updating Recipe item ${id} with:\n ${JSON.stringify(recipeData, null, 2)} `);
-            Recipe.findByIdAndUpdate(id, {name,label, active,products,recipesitems}, {runValidators: true})
+            Recipe.findByIdAndUpdate(id, {name,label, active,products,recipeitems}, {runValidators: true})
                 .then(resolve)
                 .catch(err => reject(resolveErrorType(err)))
         });
