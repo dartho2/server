@@ -12,11 +12,11 @@ const productSchema = new Schema(
         weight: {type: String, required: true},
         vat: {type: Number, required: true},
         bruttoPrice: {type: String, required: true},
-        productDate: {type: String,required: true},
-        supplier: {type: String,required: true},
+        productDate: {type: String,required: false},
+        supplier: {type: String,required: false},
         lossesPriceNetto: {type: String,required: false},
         losses: {type: String,required: false},
-        history: {type: Object, required: true},
+        history: {type: Object, required: false},
         products: {type: Object, required: true}
     },
     {
