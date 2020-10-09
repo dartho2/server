@@ -16,7 +16,7 @@ const recipeService = {
         return new Promise((resolve, reject) => {
             Recipe.findById(id)
              .populate({
-                    path: 'recipesitems',
+                    path: 'recipeitems',
                     model: 'Recipeitem'
                 })
                 .then(resolve)
