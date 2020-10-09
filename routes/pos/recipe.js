@@ -1,4 +1,3 @@
-const getUniqueElements = require('../../utils').getUniqueElements;
 const express = require('express');
 const router = express.Router();
 const authMid = require('../../middleware/authorization');
@@ -6,47 +5,46 @@ const recipeService = require("../../service/pos/recipeService");
 const authorize = require('_helpers/authorize');
 const Role = require('_helpers/role');
 // add
-router.post('/', authorize(), (req, res, next) => {
-    const productData = req.body;
+router.post('/', authorize(Role.Admin) , (req, res, next) => {
+    const recipeData = req.body;
 
-    recipeService.add(productData)
-        .then(productData => res.status(201).json(productData))
+    recipeService.add(recipeData)
+        .then(recipe => res.status(201).json(recipe))
         .catch(err => next(err));
 });
 
 // list
 router.get('/',authorize(), (req, res, next) => {
     recipeService.getAll()
-        .then(productData => res.json(productData))
+        .then(recipe => res.json(recipe))
         .catch(err => next(err));
 });
 
-
 // get one
-router.get('/:id',authorize(), (req, res, next) => {
+router.get('/:id', authorize(),(req, res, next) => {
     const id = req.params.id;
 
     recipeService.get(id)
-        .then(productData => res.json(productData))
+        .then(recipe => res.json(recipe))
         .catch(err => next(err));
 });
 
 // delete
 router.delete('/:id', authorize(Role.Admin), (req, res, next) => {
-    const id = req.params.id;
+    const recipeId = req.params.id;
 
-    recipeService.remove(id)
-        .then(product => res.json('Recipe item deleted'))
+    recipeService.remove(recipeId)
+        .then(() => res.json('Recipe deleted'))
         .catch(err => next(err));
 });
 
 // update
 router.post('/:id', authorize(Role.Admin), (req, res, next) => {
     const id = req.params.id;
-    const productData = req.body;
+    const recipeData = req.body;
 
-    recipeService.update(id, productData)
-        .then(product => res.json('Recipe item updated'))
+    recipeService.update(id, recipeData)
+        .then(() => res.json('Recipe updated'))
         .catch(err => next(err));
 });
 

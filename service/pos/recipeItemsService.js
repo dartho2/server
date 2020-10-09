@@ -1,11 +1,11 @@
-const Recipe = require("../../model/pos/recipe");
+const RecipeItem = require("../../model/pos/recipeItems");
 const resolveErrorType = require('../../error').resolveErrorType;
 const logger = require('../../libs/logger');
-const recipeService = {
+const recipeItemsService = {
 
     getAll: () => {
         return new Promise((resolve, reject) => {
-            Recipe.find()
+            RecipeItem.find()
                 .then(resolve)
                 .catch(err => reject(err))
         });
@@ -13,16 +13,16 @@ const recipeService = {
 
     get: (id) => {
         return new Promise((resolve, reject) => {
-            Recipe.findById(id)
+            RecipeItem.findById(id)
                 .then(resolve)
                 .catch(err => reject(err))
         });
     },
 
-    add: (productData) => {
+    add: (recipeData) => {
         return new Promise((resolve, reject) => {
-            logger.debug(`Adding Recipe item: `, productData);
-            new Recipe(productData).save()
+            logger.debug(`Adding Recipe item: `, recipeData);
+            new RecipeItem(recipeData).save()
                 .then(resolve)
                 .catch(err => reject(resolveErrorType(err)))
         });
@@ -30,7 +30,7 @@ const recipeService = {
 
     remove: (recipeId) => {
         return new Promise((resolve, reject) => {
-            Recipe.findOne({_id: recipeId})
+            RecipeItem.findOne({_id: recipeId})
                 .then(recipeData => {
                     if (recipeData) {
                         logger.debug(`Removing content item \n ${JSON.stringify(recipeData, null, 2)}`);
@@ -43,13 +43,10 @@ const recipeService = {
     },
 
     update: (id, recipeData) => {
-        const {name,label, active,products,recipesitems} = recipeData;
-        console.log(recipeData);
-
-        return new Promise((resolve, reject) => {
+        const {name,description, image, nettoPrice, unit, weight, lossesPriceNetto, losses, products, productDate ,vat , history, bruttoPrice, qty, supplier} = recipeData;
+      return new Promise((resolve, reject) => {
             logger.debug(`Updating Recipe item ${id} with:\n ${JSON.stringify(recipeData, null, 2)} `);
-
-            Recipe.findByIdAndUpdate(id, {name,label, active,products,recipesitems}, {runValidators: true})
+            RecipeItem.findByIdAndUpdate(id, {name,description, image, nettoPrice, unit, weight, lossesPriceNetto, losses, productDate ,vat , products, history, bruttoPrice, qty, supplier}, {runValidators: true})
                 .then(resolve)
                 .catch(err => reject(resolveErrorType(err)))
         });
@@ -57,4 +54,4 @@ const recipeService = {
 
 };
 
-module.exports = recipeService;
+module.exports = recipeItemsService;
