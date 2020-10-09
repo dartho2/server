@@ -17,7 +17,7 @@ const recipeService = {
             Recipe.findById(id)
              .populate({
                     path: 'recipesitems',
-                    model: 'RecipeItem'
+                    model: 'Recipeitem'
                 })
                 .then(resolve)
                 .catch(err => reject(err))
