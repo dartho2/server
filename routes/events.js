@@ -21,7 +21,7 @@ router.get('/reset_cache', authorize(Role.Admin), (req, res) => {
 
 router.get('/:id', (req, res, next) => {
     const id = req.params.id;
-    request.get("https://www.sofascore.com/event/" +id+ "/json?",   
+    request.get("https://api.sofascore.com/api/v1/event/" +id,   
     (err, response, body) => {
         if (err) {
             next(err);
