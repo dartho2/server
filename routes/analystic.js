@@ -15,7 +15,7 @@ router.get('/:id', authorize(), (req, res, next) => {
         if (err) {
             next(err);
         } else if (response.statusCode === 200) {
-            res.status(200).json(JSON.parse(body)['sportItem'].tournaments)
+            res.status(200).json(JSON.parse(body))
        }})
 });
 
