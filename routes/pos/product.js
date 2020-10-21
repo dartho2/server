@@ -28,7 +28,6 @@ router.get('/',authorize(), (req, res, next) => {
 // Seat=rch
 router.get('/search',authorize(), (req, res, next) => {
  const { term } = req.query
- console.log(term, "term")
  Product.find({ 
      name:  { $regex: new RegExp("^" + term.toLowerCase(), "i") }
  }).then(productData => res.json(productData))
