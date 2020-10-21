@@ -12498,3 +12498,1168 @@
 [2020-10-02T00:37:11.421] [INFO] default - Handling GET /api/graphics
 [2020-10-02T00:37:11.466] [INFO] default - Responding with HTTP 200
 [2020-10-02T00:37:11.467] [INFO] default - Responding with HTTP 200
+[2020-10-21T10:51:19.942] [INFO] default - D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.key or D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.crt does not exists.
+[2020-10-21T10:51:19.949] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2020-10-21T10:51:19.972] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb+srv://user1:Y4yPwn3W6dakmjvq@cluster0.rex5l.mongodb.net/karma",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2020-10-21T10:51:51.843] [INFO] default - Handling GET /api/
+[2020-10-21T10:51:51.963] [INFO] default - Handling GET /favicon.ico
+[2020-10-21T10:52:13.659] [INFO] default - Handling GET /api/pos/products/
+[2020-10-21T10:52:25.950] [INFO] default - Handling GET /api/pos/products/
+[2020-10-21T10:53:20.135] [INFO] default - Handling GET /api/pos/products/
+[2020-10-21T10:53:28.644] [INFO] default - Handling GET /api/pos/products/
+[2020-10-21T10:54:32.636] [INFO] default - Handling POST /api/auth/login
+[2020-10-21T10:54:32.638] [INFO] default - Responding with HTTP 200
+[2020-10-21T10:54:32.640] [INFO] default - Responding with HTTP 200
+[2020-10-21T10:54:52.035] [INFO] default - Handling GET /api/pos/products/
+[2020-10-21T10:55:00.938] [INFO] default - Handling GET /api/pos/products/
+[2020-10-21T10:55:09.921] [INFO] default - Handling GET /api/pos/products/
+[2020-10-21T10:55:14.200] [INFO] default - Handling GET /api/pos/products/
+[2020-10-21T10:55:22.706] [INFO] default - Handling GET /api/pos/products/
+[2020-10-21T10:55:35.707] [INFO] default - Handling GET /api/pos/products/
+[2020-10-21T10:57:14.644] [INFO] default - Handling POST /api/auth/login
+[2020-10-21T10:57:14.645] [INFO] default - Responding with HTTP 200
+[2020-10-21T10:57:14.645] [INFO] default - Responding with HTTP 200
+[2020-10-21T10:57:41.407] [INFO] default - Handling GET /api/pos/products
+[2020-10-21T10:57:48.765] [INFO] default - Handling GET /api/pos/products
+[2020-10-21T10:57:57.439] [INFO] default - Handling GET /api/pos/products
+[2020-10-21T10:58:05.823] [INFO] default - Handling GET /api/pos/products
+[2020-10-21T10:59:17.534] [INFO] default - Handling GET /api/pos/recipe/5e397cb2ee34a506fbba6df7
+[2020-10-21T10:59:25.303] [INFO] default - Responding with HTTP 200
+[2020-10-21T10:59:25.304] [INFO] default - Responding with HTTP 200
+[2020-10-21T10:59:35.351] [INFO] default - Handling GET /api/pos/products/
+[2020-10-21T10:59:35.767] [INFO] default - Responding with HTTP 200
+[2020-10-21T10:59:35.789] [INFO] default - Responding with HTTP 200
+[2020-10-21T11:12:44.081] [INFO] default - D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.key or D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.crt does not exists.
+[2020-10-21T11:12:44.113] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2020-10-21T11:12:44.114] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb+srv://user1:Y4yPwn3W6dakmjvq@cluster0.rex5l.mongodb.net/karma",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2020-10-21T11:12:51.421] [INFO] default - Handling GET /api/pos/products/
+[2020-10-21T11:12:51.910] [INFO] default - Responding with HTTP 200
+[2020-10-21T11:12:51.935] [INFO] default - Responding with HTTP 200
+[2020-10-21T11:13:07.691] [INFO] default - Handling GET /api/pos/products&f
+[2020-10-21T11:13:33.518] [INFO] default - Handling GET /api/pos/products
+[2020-10-21T11:13:34.006] [INFO] default - Responding with HTTP 200
+[2020-10-21T11:13:34.030] [INFO] default - Responding with HTTP 200
+[2020-10-21T11:13:54.807] [INFO] default - Handling GET /api/pos/products
+[2020-10-21T11:13:55.248] [INFO] default - Responding with HTTP 200
+[2020-10-21T11:13:55.262] [INFO] default - Responding with HTTP 200
+[2020-10-21T11:14:33.888] [INFO] default - D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.key or D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.crt does not exists.
+[2020-10-21T11:14:33.896] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2020-10-21T11:14:33.935] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb+srv://user1:Y4yPwn3W6dakmjvq@cluster0.rex5l.mongodb.net/karma",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2020-10-21T11:14:37.560] [INFO] default - Handling GET /api/pos/products
+[2020-10-21T11:14:38.062] [INFO] default - Responding with HTTP 200
+[2020-10-21T11:14:38.086] [INFO] default - Responding with HTTP 200
+[2020-10-21T11:15:15.069] [INFO] default - Handling GET /api/products
+[2020-10-21T11:15:15.139] [INFO] default - Handling POST /_search
+[2020-10-21T11:16:41.411] [INFO] default - Handling GET /api/pos/products/search
+[2020-10-21T11:17:20.290] [INFO] default - Handling GET /api/pos/products/search%dd
+[2020-10-21T11:17:29.408] [INFO] default - Handling GET /api/pos/products/search=%dd
+[2020-10-21T11:20:33.355] [INFO] default - Handling GET /api/pos/products/search=%dd
+[2020-10-21T11:23:09.694] [INFO] default - D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.key or D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.crt does not exists.
+[2020-10-21T11:23:09.699] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2020-10-21T11:23:09.728] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb+srv://user1:Y4yPwn3W6dakmjvq@cluster0.rex5l.mongodb.net/karma",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2020-10-21T11:23:14.538] [INFO] default - Handling GET /api/pos/products/search=%dd
+[2020-10-21T11:23:30.508] [INFO] default - Handling GET /api/pos/products/search=dd
+[2020-10-21T11:23:39.128] [INFO] default - Handling GET /api/pos/products/search
+[2020-10-21T11:24:05.661] [INFO] default - Handling GET /api/pos/products/search
+[2020-10-21T11:24:11.786] [INFO] default - Handling GET /api/pos/products/search
+[2020-10-21T11:24:16.464] [INFO] default - Handling GET /api/pos/products/search
+[2020-10-21T11:24:29.474] [INFO] default - Handling GET /api/pos/products/search=
+[2020-10-21T11:24:48.775] [INFO] default - Handling GET /api/pos/products/search=s
+[2020-10-21T11:27:25.959] [INFO] default - D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.key or D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.crt does not exists.
+[2020-10-21T11:27:25.965] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2020-10-21T11:27:25.996] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb+srv://user1:Y4yPwn3W6dakmjvq@cluster0.rex5l.mongodb.net/karma",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2020-10-21T11:27:36.928] [INFO] default - Handling GET /api/pos/products/search=s
+[2020-10-21T11:28:33.982] [INFO] default - Handling GET /api/pos/products
+[2020-10-21T11:28:34.435] [INFO] default - Responding with HTTP 200
+[2020-10-21T11:28:34.457] [INFO] default - Responding with HTTP 200
+[2020-10-21T11:29:39.298] [INFO] default - D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.key or D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.crt does not exists.
+[2020-10-21T11:29:39.304] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2020-10-21T11:29:39.305] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb+srv://user1:Y4yPwn3W6dakmjvq@cluster0.rex5l.mongodb.net/karma",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2020-10-21T11:29:46.258] [INFO] default - Handling GET /api/pos/products
+[2020-10-21T11:30:00.234] [INFO] default - Handling GET /api/pos/products
+[2020-10-21T11:30:07.109] [INFO] default - Handling GET /api/pos/products
+[2020-10-21T11:30:59.400] [INFO] default - D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.key or D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.crt does not exists.
+[2020-10-21T11:30:59.406] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2020-10-21T11:30:59.438] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb+srv://user1:Y4yPwn3W6dakmjvq@cluster0.rex5l.mongodb.net/karma",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2020-10-21T11:31:03.131] [INFO] default - Handling GET /api/pos/products
+[2020-10-21T11:31:03.182] [INFO] default - Handling POST /products/_search
+[2020-10-21T11:31:49.980] [INFO] default - Handling GET /api/pos/products
+[2020-10-21T11:31:49.986] [INFO] default - Handling POST /products/_search
+[2020-10-21T11:35:11.141] [INFO] default - D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.key or D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.crt does not exists.
+[2020-10-21T11:35:11.146] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2020-10-21T11:35:11.176] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb+srv://user1:Y4yPwn3W6dakmjvq@cluster0.rex5l.mongodb.net/karma",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2020-10-21T11:35:14.247] [INFO] default - Handling GET /api/pos/products
+[2020-10-21T11:35:35.560] [INFO] default - D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.key or D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.crt does not exists.
+[2020-10-21T11:35:35.565] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2020-10-21T11:35:35.566] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb+srv://user1:Y4yPwn3W6dakmjvq@cluster0.rex5l.mongodb.net/karma",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2020-10-21T11:35:37.720] [INFO] default - Handling GET /api/pos/products
+[2020-10-21T11:42:03.638] [INFO] default - D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.key or D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.crt does not exists.
+[2020-10-21T11:42:03.645] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2020-10-21T11:42:03.679] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb+srv://user1:Y4yPwn3W6dakmjvq@cluster0.rex5l.mongodb.net/karma",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2020-10-21T11:42:07.390] [INFO] default - Handling GET /api/pos/products
+[2020-10-21T11:43:03.081] [INFO] default - D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.key or D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.crt does not exists.
+[2020-10-21T11:43:03.088] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2020-10-21T11:43:03.090] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb+srv://user1:Y4yPwn3W6dakmjvq@cluster0.rex5l.mongodb.net/karma",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2020-10-21T11:43:06.239] [INFO] default - Handling GET /api/pos/products
+[2020-10-21T11:44:17.270] [INFO] default - D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.key or D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.crt does not exists.
+[2020-10-21T11:44:17.276] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2020-10-21T11:44:17.312] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb+srv://user1:Y4yPwn3W6dakmjvq@cluster0.rex5l.mongodb.net/karma",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2020-10-21T11:44:20.428] [INFO] default - Handling GET /api/pos/products
+[2020-10-21T11:44:39.618] [INFO] default - D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.key or D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.crt does not exists.
+[2020-10-21T11:44:39.624] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2020-10-21T11:44:39.666] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb+srv://user1:Y4yPwn3W6dakmjvq@cluster0.rex5l.mongodb.net/karma",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2020-10-21T11:44:42.612] [INFO] default - Handling GET /api/pos/products
+[2020-10-21T11:46:37.554] [INFO] default - D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.key or D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.crt does not exists.
+[2020-10-21T11:46:37.561] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2020-10-21T11:46:37.625] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb+srv://user1:Y4yPwn3W6dakmjvq@cluster0.rex5l.mongodb.net/karma",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2020-10-21T11:46:40.366] [INFO] default - Handling GET /api/pos/products
+[2020-10-21T11:46:40.433] [INFO] default - Responding with HTTP 200
+[2020-10-21T11:46:40.434] [INFO] default - Responding with HTTP 200
+[2020-10-21T11:46:53.928] [INFO] default - Handling GET /api/pos/products/
+[2020-10-21T11:46:53.992] [INFO] default - Responding with HTTP 200
+[2020-10-21T11:46:53.993] [INFO] default - Responding with HTTP 200
+[2020-10-21T11:47:39.171] [INFO] default - D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.key or D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.crt does not exists.
+[2020-10-21T11:47:39.176] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2020-10-21T11:47:39.179] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb+srv://user1:Y4yPwn3W6dakmjvq@cluster0.rex5l.mongodb.net/karma",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2020-10-21T11:47:42.007] [INFO] default - Handling GET /api/pos/products/
+[2020-10-21T11:47:54.240] [INFO] default - Handling GET /api/pos/products
+[2020-10-21T11:48:03.591] [INFO] default - Handling GET /api/pos/product
+[2020-10-21T11:48:24.742] [INFO] default - D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.key or D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.crt does not exists.
+[2020-10-21T11:48:24.748] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2020-10-21T11:48:24.811] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb+srv://user1:Y4yPwn3W6dakmjvq@cluster0.rex5l.mongodb.net/karma",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2020-10-21T11:48:27.718] [INFO] default - Handling GET /api/pos/product
+[2020-10-21T11:48:32.655] [INFO] default - Handling GET /api/pos/products/
+[2020-10-21T11:49:05.980] [INFO] default - D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.key or D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.crt does not exists.
+[2020-10-21T11:49:05.987] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2020-10-21T11:49:06.021] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb+srv://user1:Y4yPwn3W6dakmjvq@cluster0.rex5l.mongodb.net/karma",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2020-10-21T11:49:07.887] [INFO] default - Handling GET /api/pos/products/
+[2020-10-21T11:49:08.400] [INFO] default - Responding with HTTP 200
+[2020-10-21T11:49:08.423] [INFO] default - Responding with HTTP 200
+[2020-10-21T11:49:37.919] [INFO] default - Handling GET /api/pos/products/search=p
+[2020-10-21T11:49:58.092] [INFO] default - Handling GET /api/pos/products
+[2020-10-21T11:49:58.562] [INFO] default - Responding with HTTP 200
+[2020-10-21T11:49:58.588] [INFO] default - Responding with HTTP 200
+[2020-10-21T11:50:28.302] [INFO] default - Handling GET /api/pos/products/search
+[2020-10-21T11:50:28.359] [INFO] default - Responding with HTTP 200
+[2020-10-21T11:50:28.359] [INFO] default - Responding with HTTP 200
+[2020-10-21T11:50:43.120] [INFO] default - Handling GET /api/pos/products/search
+[2020-10-21T11:50:43.195] [INFO] default - Responding with HTTP 200
+[2020-10-21T11:50:43.195] [INFO] default - Responding with HTTP 200
+[2020-10-21T12:04:49.320] [INFO] default - Handling GET /api/pos/products/search
+[2020-10-21T12:04:49.374] [INFO] default - Responding with HTTP 200
+[2020-10-21T12:04:49.375] [INFO] default - Responding with HTTP 200
+[2020-10-21T12:06:05.832] [INFO] default - D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.key or D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.crt does not exists.
+[2020-10-21T12:06:05.840] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2020-10-21T12:06:05.872] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb+srv://user1:Y4yPwn3W6dakmjvq@cluster0.rex5l.mongodb.net/karma",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2020-10-21T12:06:08.032] [INFO] default - Handling GET /api/pos/products/search
+[2020-10-21T12:06:08.105] [INFO] default - Responding with HTTP 200
+[2020-10-21T12:06:08.106] [INFO] default - Responding with HTTP 200
+[2020-10-21T12:07:53.868] [INFO] default - Handling GET /api/pos/products/
+[2020-10-21T12:07:54.366] [INFO] default - Responding with HTTP 200
+[2020-10-21T12:07:54.394] [INFO] default - Responding with HTTP 200
+[2020-10-21T12:08:15.589] [INFO] default - D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.key or D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.crt does not exists.
+[2020-10-21T12:08:15.597] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2020-10-21T12:08:15.638] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb+srv://user1:Y4yPwn3W6dakmjvq@cluster0.rex5l.mongodb.net/karma",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2020-10-21T12:08:17.980] [INFO] default - Handling GET /api/pos/products/search
+[2020-10-21T12:08:18.053] [INFO] default - Responding with HTTP 200
+[2020-10-21T12:08:18.055] [INFO] default - Responding with HTTP 200
+[2020-10-21T12:08:42.049] [INFO] default - D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.key or D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.crt does not exists.
+[2020-10-21T12:08:42.054] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2020-10-21T12:08:42.097] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb+srv://user1:Y4yPwn3W6dakmjvq@cluster0.rex5l.mongodb.net/karma",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2020-10-21T12:08:46.336] [INFO] default - Handling GET /api/pos/products/search
+[2020-10-21T12:09:11.305] [INFO] default - D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.key or D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.crt does not exists.
+[2020-10-21T12:09:11.313] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2020-10-21T12:09:11.356] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb+srv://user1:Y4yPwn3W6dakmjvq@cluster0.rex5l.mongodb.net/karma",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2020-10-21T12:09:13.626] [INFO] default - Handling GET /api/pos/products/search
+[2020-10-21T12:09:13.700] [INFO] default - Responding with HTTP 200
+[2020-10-21T12:09:13.702] [INFO] default - Responding with HTTP 200
+[2020-10-21T12:09:45.316] [INFO] default - Handling GET /api/pos/products/
+[2020-10-21T12:09:45.785] [INFO] default - Responding with HTTP 200
+[2020-10-21T12:09:45.808] [INFO] default - Responding with HTTP 200
+[2020-10-21T12:09:57.560] [INFO] default - Handling GET /api/pos/products/search
+[2020-10-21T12:09:57.624] [INFO] default - Responding with HTTP 200
+[2020-10-21T12:09:57.625] [INFO] default - Responding with HTTP 200
+[2020-10-21T12:10:04.657] [INFO] default - Handling GET /api/pos/products/search
+[2020-10-21T12:10:04.706] [INFO] default - Responding with HTTP 200
+[2020-10-21T12:10:04.707] [INFO] default - Responding with HTTP 200
+[2020-10-21T12:10:28.647] [INFO] default - Handling GET /api/pos/products/search
+[2020-10-21T12:10:28.711] [INFO] default - Responding with HTTP 200
+[2020-10-21T12:10:28.711] [INFO] default - Responding with HTTP 200
+[2020-10-21T12:10:33.171] [INFO] default - Handling GET /api/pos/products/search
+[2020-10-21T12:10:33.239] [INFO] default - Responding with HTTP 200
+[2020-10-21T12:10:33.240] [INFO] default - Responding with HTTP 200
+[2020-10-21T12:10:49.778] [INFO] default - D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.key or D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.crt does not exists.
+[2020-10-21T12:10:49.786] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2020-10-21T12:10:49.826] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb+srv://user1:Y4yPwn3W6dakmjvq@cluster0.rex5l.mongodb.net/karma",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2020-10-21T12:10:55.135] [INFO] default - Handling GET /api/pos/products/search
+[2020-10-21T12:11:53.068] [INFO] default - D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.key or D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.crt does not exists.
+[2020-10-21T12:11:53.074] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2020-10-21T12:11:53.109] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb+srv://user1:Y4yPwn3W6dakmjvq@cluster0.rex5l.mongodb.net/karma",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2020-10-21T12:11:57.187] [INFO] default - Handling GET /api/pos/products/search
+[2020-10-21T12:13:36.766] [INFO] default - D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.key or D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.crt does not exists.
+[2020-10-21T12:13:36.772] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2020-10-21T12:13:36.807] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb+srv://user1:Y4yPwn3W6dakmjvq@cluster0.rex5l.mongodb.net/karma",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2020-10-21T12:13:37.910] [INFO] default - Handling GET /api/pos/products/search
+[2020-10-21T12:13:38.354] [INFO] default - Responding with HTTP 200
+[2020-10-21T12:13:38.355] [INFO] default - Responding with HTTP 200
+[2020-10-21T12:14:56.846] [INFO] default - D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.key or D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.crt does not exists.
+[2020-10-21T12:14:56.855] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2020-10-21T12:14:56.947] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb+srv://user1:Y4yPwn3W6dakmjvq@cluster0.rex5l.mongodb.net/karma",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2020-10-21T12:14:59.495] [INFO] default - Handling GET /api/pos/products/search
+[2020-10-21T12:14:59.574] [INFO] default - Responding with HTTP 200
+[2020-10-21T12:14:59.575] [INFO] default - Responding with HTTP 200
+[2020-10-21T12:15:29.000] [INFO] default - D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.key or D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.crt does not exists.
+[2020-10-21T12:15:29.007] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2020-10-21T12:15:29.049] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb+srv://user1:Y4yPwn3W6dakmjvq@cluster0.rex5l.mongodb.net/karma",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2020-10-21T12:15:31.626] [INFO] default - Handling GET /api/pos/products/search
+[2020-10-21T12:15:55.918] [INFO] default - D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.key or D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.crt does not exists.
+[2020-10-21T12:15:55.924] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2020-10-21T12:15:55.963] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb+srv://user1:Y4yPwn3W6dakmjvq@cluster0.rex5l.mongodb.net/karma",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2020-10-21T12:15:58.069] [INFO] default - Handling GET /api/pos/products/search
+[2020-10-21T12:15:58.153] [INFO] default - Responding with HTTP 200
+[2020-10-21T12:15:58.158] [INFO] default - Responding with HTTP 200
+[2020-10-21T12:16:28.096] [INFO] default - D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.key or D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.crt does not exists.
+[2020-10-21T12:16:28.103] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2020-10-21T12:16:28.137] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb+srv://user1:Y4yPwn3W6dakmjvq@cluster0.rex5l.mongodb.net/karma",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2020-10-21T12:16:30.214] [INFO] default - Handling GET /api/pos/products/search
+[2020-10-21T12:16:30.282] [INFO] default - Responding with HTTP 200
+[2020-10-21T12:16:30.283] [INFO] default - Responding with HTTP 200
+[2020-10-21T12:17:03.839] [INFO] default - D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.key or D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.crt does not exists.
+[2020-10-21T12:17:03.845] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2020-10-21T12:17:03.881] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb+srv://user1:Y4yPwn3W6dakmjvq@cluster0.rex5l.mongodb.net/karma",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2020-10-21T12:17:05.371] [INFO] default - Handling GET /api/pos/products/search
+[2020-10-21T12:17:05.450] [INFO] default - Responding with HTTP 200
+[2020-10-21T12:17:05.451] [INFO] default - Responding with HTTP 200
+[2020-10-21T12:19:59.000] [INFO] default - D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.key or D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.crt does not exists.
+[2020-10-21T12:19:59.006] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2020-10-21T12:19:59.039] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb+srv://user1:Y4yPwn3W6dakmjvq@cluster0.rex5l.mongodb.net/karma",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2020-10-21T12:20:05.044] [INFO] default - Handling GET /api/pos/products/search
+[2020-10-21T12:20:05.109] [INFO] default - Responding with HTTP 200
+[2020-10-21T12:20:05.110] [INFO] default - Responding with HTTP 200
+[2020-10-21T12:20:17.376] [INFO] default - Handling GET /api/pos/products/search=t
+[2020-10-21T12:30:34.930] [INFO] default - D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.key or D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.crt does not exists.
+[2020-10-21T12:30:34.937] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2020-10-21T12:30:34.964] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb+srv://user1:Y4yPwn3W6dakmjvq@cluster0.rex5l.mongodb.net/karma",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2020-10-21T12:30:40.389] [INFO] default - Handling GET /api/pos/products/search=t
+[2020-10-21T12:35:36.145] [INFO] default - D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.key or D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.crt does not exists.
+[2020-10-21T12:35:36.157] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2020-10-21T12:35:36.187] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb+srv://user1:Y4yPwn3W6dakmjvq@cluster0.rex5l.mongodb.net/karma",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2020-10-21T12:35:41.782] [INFO] default - Handling GET /api/pos/products/search=t
+[2020-10-21T12:36:01.184] [INFO] default - D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.key or D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.crt does not exists.
+[2020-10-21T12:36:01.191] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2020-10-21T12:36:01.219] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb+srv://user1:Y4yPwn3W6dakmjvq@cluster0.rex5l.mongodb.net/karma",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2020-10-21T12:36:04.032] [INFO] default - Handling GET /api/pos/products/search=t
+[2020-10-21T12:37:25.275] [INFO] default - Handling GET /api/pos/products/search
+[2020-10-21T12:37:52.944] [INFO] default - D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.key or D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.crt does not exists.
+[2020-10-21T12:37:52.955] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2020-10-21T12:37:52.990] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb+srv://user1:Y4yPwn3W6dakmjvq@cluster0.rex5l.mongodb.net/karma",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2020-10-21T12:37:55.208] [INFO] default - Handling GET /api/pos/products/search
+[2020-10-21T12:37:55.273] [INFO] default - Responding with HTTP 200
+[2020-10-21T12:37:55.274] [INFO] default - Responding with HTTP 200
+[2020-10-21T12:38:03.752] [INFO] default - Handling GET /api/pos/products/search
+[2020-10-21T12:38:03.803] [INFO] default - Responding with HTTP 200
+[2020-10-21T12:38:03.804] [INFO] default - Responding with HTTP 200
+[2020-10-21T12:38:34.124] [INFO] default - D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.key or D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.crt does not exists.
+[2020-10-21T12:38:34.131] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2020-10-21T12:38:34.158] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb+srv://user1:Y4yPwn3W6dakmjvq@cluster0.rex5l.mongodb.net/karma",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2020-10-21T12:38:45.879] [INFO] default - Handling GET /api/pos/products/search
+[2020-10-21T12:38:45.948] [INFO] default - Responding with HTTP 200
+[2020-10-21T12:38:45.949] [INFO] default - Responding with HTTP 200
+[2020-10-21T12:39:03.585] [INFO] default - Handling GET /api/pos/products/search
+[2020-10-21T12:39:03.637] [INFO] default - Responding with HTTP 200
+[2020-10-21T12:39:03.638] [INFO] default - Responding with HTTP 200
+[2020-10-21T12:39:14.509] [INFO] default - Handling GET /api/pos/products/search
+[2020-10-21T12:39:14.560] [INFO] default - Responding with HTTP 200
+[2020-10-21T12:39:14.561] [INFO] default - Responding with HTTP 200
+[2020-10-21T12:39:42.318] [INFO] default - D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.key or D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.crt does not exists.
+[2020-10-21T12:39:42.324] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2020-10-21T12:39:42.326] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb+srv://user1:Y4yPwn3W6dakmjvq@cluster0.rex5l.mongodb.net/karma",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2020-10-21T12:39:44.420] [INFO] default - Handling GET /api/pos/products/search
+[2020-10-21T12:39:44.483] [INFO] default - Responding with HTTP 200
+[2020-10-21T12:39:44.484] [INFO] default - Responding with HTTP 200
+[2020-10-21T12:44:02.478] [INFO] default - D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.key or D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.crt does not exists.
+[2020-10-21T12:44:02.484] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2020-10-21T12:44:02.511] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb+srv://user1:Y4yPwn3W6dakmjvq@cluster0.rex5l.mongodb.net/karma",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2020-10-21T12:44:09.011] [INFO] default - Handling GET /api/pos/products/search
+[2020-10-21T12:44:37.959] [INFO] default - D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.key or D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.crt does not exists.
+[2020-10-21T12:44:37.967] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2020-10-21T12:44:38.005] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb+srv://user1:Y4yPwn3W6dakmjvq@cluster0.rex5l.mongodb.net/karma",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2020-10-21T12:44:41.184] [INFO] default - Handling GET /api/pos/products/search
+[2020-10-21T12:45:34.917] [INFO] default - D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.key or D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.crt does not exists.
+[2020-10-21T12:45:34.923] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2020-10-21T12:45:34.951] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb+srv://user1:Y4yPwn3W6dakmjvq@cluster0.rex5l.mongodb.net/karma",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2020-10-21T12:45:36.595] [INFO] default - Handling GET /api/pos/products/search
+[2020-10-21T12:46:09.889] [INFO] default - D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.key or D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.crt does not exists.
+[2020-10-21T12:46:09.897] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2020-10-21T12:46:09.926] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb+srv://user1:Y4yPwn3W6dakmjvq@cluster0.rex5l.mongodb.net/karma",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2020-10-21T12:46:11.986] [INFO] default - Handling GET /api/pos/products/search
+[2020-10-21T12:48:50.113] [INFO] default - D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.key or D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.crt does not exists.
+[2020-10-21T12:48:50.119] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2020-10-21T12:48:50.147] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb+srv://user1:Y4yPwn3W6dakmjvq@cluster0.rex5l.mongodb.net/karma",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2020-10-21T12:48:51.828] [INFO] default - Handling GET /api/pos/products/search
+[2020-10-21T12:48:51.912] [INFO] default - Responding with HTTP 200
+[2020-10-21T12:48:51.913] [INFO] default - Responding with HTTP 200
+[2020-10-21T12:49:01.040] [INFO] default - Handling GET /api/pos/products/search
+[2020-10-21T12:49:01.104] [INFO] default - Responding with HTTP 200
+[2020-10-21T12:49:01.105] [INFO] default - Responding with HTTP 200
+[2020-10-21T12:49:06.694] [INFO] default - Handling GET /api/pos/products/search
+[2020-10-21T12:49:06.748] [INFO] default - Responding with HTTP 200
+[2020-10-21T12:49:06.748] [INFO] default - Responding with HTTP 200
+[2020-10-21T12:49:12.356] [INFO] default - Handling GET /api/pos/products/search
+[2020-10-21T12:49:12.414] [INFO] default - Responding with HTTP 200
+[2020-10-21T12:49:12.415] [INFO] default - Responding with HTTP 200
+[2020-10-21T12:50:48.028] [INFO] default - D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.key or D:\xampp\htdocs\server\server-master(dzialajacy2020)\server-master\certs\cert.crt does not exists.
+[2020-10-21T12:50:48.034] [INFO] default - HTTP server started on port: 8080 with env: dev
+[2020-10-21T12:50:48.060] [DEBUG] default - {
+   "env": "dev",
+   "port": 8080,
+   "jwt_secret": "sldgkhoiu58340th0089y",
+   "database_uri": "mongodb+srv://user1:Y4yPwn3W6dakmjvq@cluster0.rex5l.mongodb.net/karma",
+   "logging_level": "debug",
+   "authentication_timeout": 36000,
+   "portal_cache_timeout": 60,
+   "email": {
+      "title": "Test mail from yoga",
+      "to": "ssjkamil@gmail.com"
+   },
+   "email_server": {
+      "username": "example@gmail.com",
+      "password": "password"
+   },
+   "credentials": {
+      "username": "admin",
+      "password": "admin"
+   }
+}
+[2020-10-21T12:50:53.689] [INFO] default - Handling GET /api/pos/products/search
+[2020-10-21T12:50:53.783] [INFO] default - Responding with HTTP 200
+[2020-10-21T12:50:53.787] [INFO] default - Responding with HTTP 200
+[2020-10-21T12:51:07.521] [INFO] default - Handling GET /api/pos/products/search
+[2020-10-21T12:51:07.584] [INFO] default - Responding with HTTP 200
+[2020-10-21T12:51:07.586] [INFO] default - Responding with HTTP 200
+[2020-10-21T12:51:29.041] [INFO] default - Handling GET /api/pos/products/search
+[2020-10-21T12:51:29.100] [INFO] default - Responding with HTTP 200
+[2020-10-21T12:51:29.100] [INFO] default - Responding with HTTP 200
+[2020-10-21T12:51:43.180] [INFO] default - Handling GET /api/pos/products/search
+[2020-10-21T12:51:43.248] [INFO] default - Responding with HTTP 200
+[2020-10-21T12:51:43.250] [INFO] default - Responding with HTTP 200

@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 const Storage = require('./storage');
-
+const Sequelize = require('sequelize');
 const productSchema = new Schema(
     {
         name: {type: String, required: true, unique: false},

@@ -1,10 +1,14 @@
 const getUniqueElements = require('../../utils').getUniqueElements;
 const express = require('express');
 const router = express.Router();
+const Product = require("../../model/pos/product");
 const authMid = require('../../middleware/authorization');
 const productService = require("../../service/pos/productService");
 const authorize = require('_helpers/authorize');
 const Role = require('_helpers/role');
+const Sequelize = require('sequelize');
+const Op = Sequelize.Op;
+// const Op = Sequelize.Op;
 // add
 router.post('/', authorize(), (req, res, next) => {
     const productData = req.body;
@@ -21,6 +25,15 @@ router.get('/',authorize(), (req, res, next) => {
         .catch(err => next(err));
 });
 
+// Seat=rch
+router.get('/search',authorize(), (req, res, next) => {
+ const { term } = req.query
+ console.log(term, "term")
+ Product.find({ 
+     name:  { $regex: new RegExp("^" + term.toLowerCase(), "i") }
+ }).then(productData => res.json(productData))
+ .catch(err => console.log(err))
+});
 
 // get one
 router.get('/:id',authorize(), (req, res, next) => {

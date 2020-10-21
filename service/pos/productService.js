@@ -1,6 +1,8 @@
 const Product = require("../../model/pos/product");
 const resolveErrorType = require('../../error').resolveErrorType;
 const logger = require('../../libs/logger');
+const Sequelize = require('sequelize');
+const Op = Sequelize.Op;
 const productService = {
 
     getAll: () => {
@@ -10,7 +12,17 @@ const productService = {
                 .catch(err => reject(err))
         });
     },
+    findAll: (query) =>{
+        return new Promise((resolve, reject) => {
+            Product.find({
+                where: {
+                  name: 'Ogórek'
+                }
+            }) .then(resolve)
+            .catch(err => reject(err))
+    })
 
+    },
     get: (id) => {
         return new Promise((resolve, reject) => {
             Product.findById(id)
