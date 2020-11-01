@@ -11,6 +11,7 @@ const productSchema = new Schema(
         unit: {type: String, required: true},
         weight: {type: String, required: true},
         vat: {type: Number, required: true},
+         id_ebid: {type: String, required: false},
         bruttoPrice: {type: String, required: true},
         productDate: {type: String,required: true},
         supplier: {type: String,required: true},
